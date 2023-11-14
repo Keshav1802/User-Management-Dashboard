@@ -38,7 +38,9 @@
 export default {
   data() {
     return {
-      users: [], // Placeholder for user data
+      users: [ { id: 1, username: 'user1', email: 'user1@email.com', phone: '123456789', creationDate: '2023-01-01' },
+      { id: 2, username: 'user2', email: 'user2@email.com', phone: '1234567890', creationDate: '2023-01-01' },
+      { id: 3, username: 'user3', email: 'user3@email.com', phone: '123456789', creationDate: '2023-01-01' },], // Placeholder for user data
       searchTerm: '',
       selectedUser: null,
     };
