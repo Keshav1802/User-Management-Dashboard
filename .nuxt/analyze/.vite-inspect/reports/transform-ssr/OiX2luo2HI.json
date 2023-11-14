@@ -1,0 +1,277 @@
+{
+  "resolvedId": "D:/user-management-dashboard/pages/UserDetails.vue?macro=true",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "<template>\r\n  <div>\r\n    <h1>User Details</h1>\r\n    <!-- Search bar -->\r\n    <input v-model=\"searchTerm\" placeholder=\"Search user...\" />\r\n    \r\n    <!-- User table -->\r\n    <table>\r\n      <thead>\r\n        <tr>\r\n          <th>Username</th>\r\n          <th>Email</th>\r\n          <th>Phone</th>\r\n          <th>ID</th>\r\n          <th>Creation Date</th>\r\n        </tr>\r\n      </thead>\r\n      <tbody>\r\n        <tr v-for=\"user in filteredUsers\" :key=\"user.id\" @click=\"openModal(user)\">\r\n          <td>{{ user.username }}</td>\r\n          <td>{{ user.email }}</td>\r\n          <td>{{ user.phone }}</td>\r\n          <td>{{ user.id }}</td>\r\n          <td>{{ user.creationDate }}</td>\r\n        </tr>\r\n      </tbody>\r\n    </table>\r\n\r\n    <!-- Modal for user report -->\r\n    <div v-if=\"selectedUser\" class=\"modal\">\r\n      <button @click=\"closeModal\">Close</button>\r\n      <button @click=\"generateReport(selectedUser)\">Generate Report</button>\r\n    </div>\r\n  </div>\r\n</template>\r\n\r\n<script>\r\nexport default {\r\n  data() {\r\n    return {\r\n      users: [], // Placeholder for user data\r\n      searchTerm: '',\r\n      selectedUser: null,\r\n    };\r\n  },\r\n  computed: {\r\n    filteredUsers() {\r\n      return this.users.filter(user =>\r\n        user.username.toLowerCase().includes(this.searchTerm.toLowerCase())\r\n      );\r\n    },\r\n  },\r\n  methods: {\r\n    openModal(user) {\r\n      this.selectedUser = user;\r\n    },\r\n    closeModal() {\r\n      this.selectedUser = null;\r\n    },\r\n    generateReport(user) {\r\n      // Implement report generation logic\r\n      console.log(`Generating report for user: ${user.username}`);\r\n    },\r\n  },\r\n  mounted() {\r\n    // Fetch user data from a placeholder database\r\n    // You can use Axios or fetch API for this\r\n    // Dummy data for demonstration purposes\r\n    this.users = [\r\n      { id: 1, username: 'user1', email: 'user1@email.com', phone: '123456789', creationDate: '2023-01-01' },\r\n      // Add more users...\r\n    ];\r\n  },\r\n};\r\n</script>\r\n\r\n<style scoped>\r\n/* Add your custom styles or use Tailwind classes */\r\n</style>\r\n",
+      "start": 1699985922563,
+      "end": 1699985922936,
+      "sourcemaps": null
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1699985922936,
+      "end": 1699985922936,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1699985922936,
+      "end": 1699985922936,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1699985922936,
+      "end": 1699985922937,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1699985922936,
+      "end": 1699985922937,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1699985922937,
+      "end": 1699985922937,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "start": 1699985922937,
+      "end": 1699985922937,
+      "order": "normal"
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1699985922937,
+      "end": 1699985922937,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1699985922937,
+      "end": 1699985922937,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1699985922937,
+      "end": 1699985922937,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": "\r\nconst _sfc_main = {\r\n  data() {\r\n    return {\r\n      users: [], // Placeholder for user data\r\n      searchTerm: '',\r\n      selectedUser: null,\r\n    };\r\n  },\r\n  computed: {\r\n    filteredUsers() {\r\n      return this.users.filter(user =>\r\n        user.username.toLowerCase().includes(this.searchTerm.toLowerCase())\r\n      );\r\n    },\r\n  },\r\n  methods: {\r\n    openModal(user) {\r\n      this.selectedUser = user;\r\n    },\r\n    closeModal() {\r\n      this.selectedUser = null;\r\n    },\r\n    generateReport(user) {\r\n      // Implement report generation logic\r\n      console.log(`Generating report for user: ${user.username}`);\r\n    },\r\n  },\r\n  mounted() {\r\n    // Fetch user data from a placeholder database\r\n    // You can use Axios or fetch API for this\r\n    // Dummy data for demonstration purposes\r\n    this.users = [\r\n      { id: 1, username: 'user1', email: 'user1@email.com', phone: '123456789', creationDate: '2023-01-01' },\r\n      // Add more users...\r\n    ];\r\n  },\r\n};\r\n\nimport { ssrRenderAttr as _ssrRenderAttr, ssrRenderAttrs as _ssrRenderAttrs, ssrInterpolate as _ssrInterpolate, ssrRenderList as _ssrRenderList } from \"vue/server-renderer\"\n\nfunction _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {\n  _push(`<div${\n    _ssrRenderAttrs(_attrs)\n  } data-v-291d76f6><h1 data-v-291d76f6>User Details</h1><input${\n    _ssrRenderAttr(\"value\", $data.searchTerm)\n  } placeholder=\"Search user...\" data-v-291d76f6><table data-v-291d76f6><thead data-v-291d76f6><tr data-v-291d76f6><th data-v-291d76f6>Username</th><th data-v-291d76f6>Email</th><th data-v-291d76f6>Phone</th><th data-v-291d76f6>ID</th><th data-v-291d76f6>Creation Date</th></tr></thead><tbody data-v-291d76f6><!--[-->`)\n  _ssrRenderList($options.filteredUsers, (user) => {\n    _push(`<tr data-v-291d76f6><td data-v-291d76f6>${\n      _ssrInterpolate(user.username)\n    }</td><td data-v-291d76f6>${\n      _ssrInterpolate(user.email)\n    }</td><td data-v-291d76f6>${\n      _ssrInterpolate(user.phone)\n    }</td><td data-v-291d76f6>${\n      _ssrInterpolate(user.id)\n    }</td><td data-v-291d76f6>${\n      _ssrInterpolate(user.creationDate)\n    }</td></tr>`)\n  })\n  _push(`<!--]--></tbody></table>`)\n  if ($data.selectedUser) {\n    _push(`<div class=\"modal\" data-v-291d76f6><button data-v-291d76f6>Close</button><button data-v-291d76f6>Generate Report</button></div>`)\n  } else {\n    _push(`<!---->`)\n  }\n  _push(`</div>`)\n}\n\nimport \"D:/user-management-dashboard/pages/UserDetails.vue?vue&type=style&index=0&scoped=291d76f6&lang.css\"\n\nimport { useSSRContext as __vite_useSSRContext } from 'vue'\nconst _sfc_setup = _sfc_main.setup\n_sfc_main.setup = (props, ctx) => {\n  const ssrContext = __vite_useSSRContext()\n  ;(ssrContext.modules || (ssrContext.modules = new Set())).add(\"pages/UserDetails.vue\")\n  return _sfc_setup ? _sfc_setup(props, ctx) : undefined\n}\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['ssrRender',_sfc_ssrRender],['__scopeId',\"data-v-291d76f6\"]])",
+      "start": 1699985922937,
+      "end": 1699985922963,
+      "order": "normal",
+      "sourcemaps": {
+        "version": 3,
+        "file": "D:/user-management-dashboard/pages/UserDetails.vue",
+        "names": [],
+        "sources": [
+          "D:/user-management-dashboard/pages/UserDetails.vue"
+        ],
+        "sourcesContent": [
+          "<template>\r\n  <div>\r\n    <h1>User Details</h1>\r\n    <!-- Search bar -->\r\n    <input v-model=\"searchTerm\" placeholder=\"Search user...\" />\r\n    \r\n    <!-- User table -->\r\n    <table>\r\n      <thead>\r\n        <tr>\r\n          <th>Username</th>\r\n          <th>Email</th>\r\n          <th>Phone</th>\r\n          <th>ID</th>\r\n          <th>Creation Date</th>\r\n        </tr>\r\n      </thead>\r\n      <tbody>\r\n        <tr v-for=\"user in filteredUsers\" :key=\"user.id\" @click=\"openModal(user)\">\r\n          <td>{{ user.username }}</td>\r\n          <td>{{ user.email }}</td>\r\n          <td>{{ user.phone }}</td>\r\n          <td>{{ user.id }}</td>\r\n          <td>{{ user.creationDate }}</td>\r\n        </tr>\r\n      </tbody>\r\n    </table>\r\n\r\n    <!-- Modal for user report -->\r\n    <div v-if=\"selectedUser\" class=\"modal\">\r\n      <button @click=\"closeModal\">Close</button>\r\n      <button @click=\"generateReport(selectedUser)\">Generate Report</button>\r\n    </div>\r\n  </div>\r\n</template>\r\n\r\n<script>\r\nexport default {\r\n  data() {\r\n    return {\r\n      users: [], // Placeholder for user data\r\n      searchTerm: '',\r\n      selectedUser: null,\r\n    };\r\n  },\r\n  computed: {\r\n    filteredUsers() {\r\n      return this.users.filter(user =>\r\n        user.username.toLowerCase().includes(this.searchTerm.toLowerCase())\r\n      );\r\n    },\r\n  },\r\n  methods: {\r\n    openModal(user) {\r\n      this.selectedUser = user;\r\n    },\r\n    closeModal() {\r\n      this.selectedUser = null;\r\n    },\r\n    generateReport(user) {\r\n      // Implement report generation logic\r\n      console.log(`Generating report for user: ${user.username}`);\r\n    },\r\n  },\r\n  mounted() {\r\n    // Fetch user data from a placeholder database\r\n    // You can use Axios or fetch API for this\r\n    // Dummy data for demonstration purposes\r\n    this.users = [\r\n      { id: 1, username: 'user1', email: 'user1@email.com', phone: '123456789', creationDate: '2023-01-01' },\r\n      // Add more users...\r\n    ];\r\n  },\r\n};\r\n</script>\r\n\r\n<style scoped>\r\n/* Add your custom styles or use Tailwind classes */\r\n</style>\r\n"
+        ],
+        "mappings": "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"
+      }
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1699985922963,
+      "end": 1699985922963,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1699985922963,
+      "end": 1699985922963,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1699985922963,
+      "end": 1699985922963,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1699985922963,
+      "end": 1699985922963,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1699985922963,
+      "end": 1699985922963,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1699985922963,
+      "end": 1699985922963,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1699985922963,
+      "end": 1699985922964,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1699985922964,
+      "end": 1699985922964,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1699985922964,
+      "end": 1699985922964,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1699985922964,
+      "end": 1699985922964,
+      "order": "normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1699985922964,
+      "end": 1699985922964,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1699985922964,
+      "end": 1699985922964,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1699985922964,
+      "end": 1699985922964,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1699985922964,
+      "end": 1699985922964,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1699985922964,
+      "end": 1699985922964,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1699985922964,
+      "end": 1699985922964,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1699985922964,
+      "end": 1699985922965,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1699985922964,
+      "end": 1699985922965,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1699985922965,
+      "end": 1699985922969,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1699985922965,
+      "end": 1699985922969,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1699985922969,
+      "end": 1699985922969,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1699985922969,
+      "end": 1699985922969,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "result": "\nconst __nuxt_page_meta = null\nexport default __nuxt_page_meta\n",
+      "start": 1699985922969,
+      "end": 1699985922970,
+      "order": "post",
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          ""
+        ],
+        "names": [],
+        "mappings": "AAAA;AAAA;AAAA;AAAA"
+      }
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "result": "\nconst __nuxt_page_meta = null\nexport default __nuxt_page_meta\n",
+      "start": 1699985922969,
+      "end": 1699985922970,
+      "order": "post",
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          ""
+        ],
+        "names": [],
+        "mappings": "AAAA;AAAA;AAAA;AAAA"
+      }
+    },
+    {
+      "name": "nuxt:tree-shake-template",
+      "start": 1699985922970,
+      "end": 1699985922970,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1699985922970,
+      "end": 1699985922970,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1699985922971,
+      "end": 1699985922971,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1699985922971,
+      "end": 1699985922971,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1699985922971,
+      "end": 1699985922971,
+      "order": "normal"
+    }
+  ]
+}

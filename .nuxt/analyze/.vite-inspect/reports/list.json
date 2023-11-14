@@ -1,0 +1,5501 @@
+{
+  "root": "D:/user-management-dashboard",
+  "modules": [
+    {
+      "id": "D:/user-management-dashboard/.nuxt/app.config.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 522
+        },
+        {
+          "name": "vite:define",
+          "transform": 0
+        },
+        {
+          "name": "alias",
+          "resolveId": 3
+        }
+      ],
+      "virtual": false,
+      "totalTime": 522,
+      "invokeCount": 1,
+      "sourceSize": 393,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/node_modules/@nuxt/ui-templates/dist/templates/error-404.vue",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 579
+        },
+        {
+          "name": "vite:vue",
+          "transform": 5
+        },
+        {
+          "name": "nuxt:imports-transform",
+          "transform": 3
+        },
+        {
+          "name": "nuxt:components-loader",
+          "transform": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 3
+        },
+        {
+          "name": "ssr-styles",
+          "resolveId": 4
+        }
+      ],
+      "virtual": false,
+      "totalTime": 587,
+      "invokeCount": 1,
+      "sourceSize": 5283,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/node_modules/@nuxt/ui-templates/dist/templates/error-404.vue?vue&type=style&index=0&scoped=ccd3db62&lang.css",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:vue",
+          "transform": 0
+        },
+        {
+          "name": "vite:css",
+          "transform": 72
+        },
+        {
+          "name": "vite:vue",
+          "transform": 16
+        },
+        {
+          "name": "vite:css-post",
+          "transform": 0
+        }
+      ],
+      "virtual": true,
+      "totalTime": 88,
+      "invokeCount": 1,
+      "sourceSize": 3195,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/node_modules/@nuxt/ui-templates/dist/templates/error-500.vue",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 619
+        },
+        {
+          "name": "vite:vue",
+          "transform": 5
+        },
+        {
+          "name": "nuxt:imports-transform",
+          "transform": 10
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "ssr-styles",
+          "resolveId": 4
+        }
+      ],
+      "virtual": false,
+      "totalTime": 634,
+      "invokeCount": 1,
+      "sourceSize": 3283,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/node_modules/@nuxt/ui-templates/dist/templates/error-500.vue?vue&type=style&index=0&scoped=df79c84d&lang.css",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:vue",
+          "transform": 0
+        },
+        {
+          "name": "vite:css",
+          "transform": 18
+        },
+        {
+          "name": "vite:vue",
+          "transform": 8
+        },
+        {
+          "name": "vite:css-post",
+          "transform": 0
+        }
+      ],
+      "virtual": true,
+      "totalTime": 26,
+      "invokeCount": 1,
+      "sourceSize": 1494,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/node_modules/@nuxt/ui-templates/dist/templates/error-dev.vue",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 598
+        },
+        {
+          "name": "vite:vue",
+          "transform": 5
+        },
+        {
+          "name": "nuxt:imports-transform",
+          "transform": 3
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "ssr-styles",
+          "resolveId": 4
+        }
+      ],
+      "virtual": false,
+      "totalTime": 606,
+      "invokeCount": 1,
+      "sourceSize": 4089,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/node_modules/@nuxt/ui-templates/dist/templates/error-dev.vue?vue&type=style&index=0&scoped=51ccc917&lang.css",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:vue",
+          "transform": 1
+        },
+        {
+          "name": "vite:css",
+          "transform": 34
+        },
+        {
+          "name": "vite:vue",
+          "transform": 8
+        },
+        {
+          "name": "vite:css-post",
+          "transform": 0
+        }
+      ],
+      "virtual": true,
+      "totalTime": 43,
+      "invokeCount": 1,
+      "sourceSize": 1946,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/node_modules/@unhead/dom/dist/index.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 568
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 2
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        }
+      ],
+      "virtual": false,
+      "totalTime": 568,
+      "invokeCount": 1,
+      "sourceSize": 4451,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/node_modules/@unhead/shared/dist/index.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 461
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 461,
+      "invokeCount": 1,
+      "sourceSize": 20490,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/node_modules/@unhead/vue/dist/index.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 428
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 5
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 2
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 428,
+      "invokeCount": 1,
+      "sourceSize": 3864,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/node_modules/@unhead/vue/dist/shared/vue.cf295fb1.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 477
+        },
+        {
+          "name": "vite:define",
+          "transform": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 3
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        }
+      ],
+      "virtual": false,
+      "totalTime": 477,
+      "invokeCount": 1,
+      "sourceSize": 2633,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/node_modules/@unhead/vue/dist/shared/vue.f36acd1f.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 480
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 2
+        }
+      ],
+      "virtual": false,
+      "totalTime": 480,
+      "invokeCount": 1,
+      "sourceSize": 1035,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/node_modules/@vue/devtools-api/lib/esm/api/api.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 82
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 3
+        }
+      ],
+      "virtual": false,
+      "totalTime": 82,
+      "invokeCount": 1,
+      "sourceSize": 11,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/node_modules/@vue/devtools-api/lib/esm/api/app.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 84
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 2
+        }
+      ],
+      "virtual": false,
+      "totalTime": 84,
+      "invokeCount": 1,
+      "sourceSize": 11,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/node_modules/@vue/devtools-api/lib/esm/api/component.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 87
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 2
+        }
+      ],
+      "virtual": false,
+      "totalTime": 87,
+      "invokeCount": 1,
+      "sourceSize": 11,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/node_modules/@vue/devtools-api/lib/esm/api/context.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 86
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        }
+      ],
+      "virtual": false,
+      "totalTime": 86,
+      "invokeCount": 1,
+      "sourceSize": 11,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/node_modules/@vue/devtools-api/lib/esm/api/hooks.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 89
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        }
+      ],
+      "virtual": false,
+      "totalTime": 89,
+      "invokeCount": 1,
+      "sourceSize": 11,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/node_modules/@vue/devtools-api/lib/esm/api/index.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 523
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        }
+      ],
+      "virtual": false,
+      "totalTime": 523,
+      "invokeCount": 1,
+      "sourceSize": 169,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/node_modules/@vue/devtools-api/lib/esm/api/util.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 91
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 91,
+      "invokeCount": 1,
+      "sourceSize": 11,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/node_modules/@vue/devtools-api/lib/esm/const.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 519
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 2
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        }
+      ],
+      "virtual": false,
+      "totalTime": 519,
+      "invokeCount": 1,
+      "sourceSize": 114,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/node_modules/@vue/devtools-api/lib/esm/env.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 516
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 4
+        }
+      ],
+      "virtual": false,
+      "totalTime": 516,
+      "invokeCount": 1,
+      "sourceSize": 383,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/node_modules/@vue/devtools-api/lib/esm/index.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 495
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 2
+        }
+      ],
+      "virtual": false,
+      "totalTime": 495,
+      "invokeCount": 1,
+      "sourceSize": 1009,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/node_modules/@vue/devtools-api/lib/esm/plugin.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 521
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        }
+      ],
+      "virtual": false,
+      "totalTime": 521,
+      "invokeCount": 1,
+      "sourceSize": 11,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/node_modules/@vue/devtools-api/lib/esm/proxy.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 529
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 2
+        }
+      ],
+      "virtual": false,
+      "totalTime": 529,
+      "invokeCount": 1,
+      "sourceSize": 3533,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/node_modules/@vue/devtools-api/lib/esm/time.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 381
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 381,
+      "invokeCount": 1,
+      "sourceSize": 640,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/node_modules/@vue/reactivity/dist/reactivity.esm-bundler.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 537
+        },
+        {
+          "name": "vite:define",
+          "transform": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 3
+        }
+      ],
+      "virtual": false,
+      "totalTime": 538,
+      "invokeCount": 1,
+      "sourceSize": 34238,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/node_modules/@vue/runtime-core/dist/runtime-core.esm-bundler.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 563
+        },
+        {
+          "name": "vite:define",
+          "transform": 3
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 4
+        }
+      ],
+      "virtual": false,
+      "totalTime": 566,
+      "invokeCount": 1,
+      "sourceSize": 238066,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/node_modules/@vue/runtime-dom/dist/runtime-dom.esm-bundler.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 470
+        },
+        {
+          "name": "vite:define",
+          "transform": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 3
+        }
+      ],
+      "virtual": false,
+      "totalTime": 471,
+      "invokeCount": 1,
+      "sourceSize": 46556,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/node_modules/@vue/shared/dist/shared.esm-bundler.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 470
+        },
+        {
+          "name": "vite:define",
+          "transform": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        }
+      ],
+      "virtual": false,
+      "totalTime": 470,
+      "invokeCount": 1,
+      "sourceSize": 18391,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/node_modules/cookie-es/dist/index.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 505
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 9
+        }
+      ],
+      "virtual": false,
+      "totalTime": 505,
+      "invokeCount": 1,
+      "sourceSize": 3644,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/node_modules/defu/dist/defu.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 523
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 2
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 6
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        }
+      ],
+      "virtual": false,
+      "totalTime": 523,
+      "invokeCount": 1,
+      "sourceSize": 1917,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/node_modules/destr/dist/index.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 575
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 4
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 7
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 575,
+      "invokeCount": 1,
+      "sourceSize": 2207,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/node_modules/devalue/index.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 460
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 5
+        }
+      ],
+      "virtual": false,
+      "totalTime": 460,
+      "invokeCount": 1,
+      "sourceSize": 141,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/node_modules/devalue/src/constants.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 353
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 353,
+      "invokeCount": 1,
+      "sourceSize": 183,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/node_modules/devalue/src/parse.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 591
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        }
+      ],
+      "virtual": false,
+      "totalTime": 591,
+      "invokeCount": 1,
+      "sourceSize": 3053,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/node_modules/devalue/src/stringify.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 607
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        }
+      ],
+      "virtual": false,
+      "totalTime": 607,
+      "invokeCount": 1,
+      "sourceSize": 4304,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/node_modules/devalue/src/uneval.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 574
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 2
+        }
+      ],
+      "virtual": false,
+      "totalTime": 574,
+      "invokeCount": 1,
+      "sourceSize": 6924,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/node_modules/devalue/src/utils.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 372
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        }
+      ],
+      "virtual": false,
+      "totalTime": 372,
+      "invokeCount": 1,
+      "sourceSize": 1944,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/node_modules/h3/dist/index.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 488
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 4
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 2
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 3
+        }
+      ],
+      "virtual": false,
+      "totalTime": 488,
+      "invokeCount": 1,
+      "sourceSize": 58795,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/node_modules/hookable/dist/index.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 540
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 4
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 3
+        }
+      ],
+      "virtual": false,
+      "totalTime": 540,
+      "invokeCount": 1,
+      "sourceSize": 8302,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/node_modules/iron-webcrypto/dist/index.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 501
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 5
+        }
+      ],
+      "virtual": false,
+      "totalTime": 501,
+      "invokeCount": 1,
+      "sourceSize": 11724,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/node_modules/klona/dist/index.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 518
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 3
+        }
+      ],
+      "virtual": false,
+      "totalTime": 518,
+      "invokeCount": 1,
+      "sourceSize": 1531,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/node_modules/nuxt/dist/app/compat/idle-callback.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 379
+        },
+        {
+          "name": "replace",
+          "transform": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        }
+      ],
+      "virtual": false,
+      "totalTime": 379,
+      "invokeCount": 1,
+      "sourceSize": 456,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/node_modules/nuxt/dist/app/components/injections.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 448
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 2
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 2
+        },
+        {
+          "name": "alias",
+          "resolveId": 8
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 448,
+      "invokeCount": 1,
+      "sourceSize": 103,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/node_modules/nuxt/dist/app/components/island-renderer.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 444
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        }
+      ],
+      "virtual": false,
+      "totalTime": 444,
+      "invokeCount": 1,
+      "sourceSize": 643,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/node_modules/nuxt/dist/app/components/nuxt-error-page.vue",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 416
+        },
+        {
+          "name": "vite:vue",
+          "transform": 8
+        },
+        {
+          "name": "replace",
+          "transform": 0
+        },
+        {
+          "name": "vite:build-import-analysis",
+          "transform": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 424,
+      "invokeCount": 1,
+      "sourceSize": 1688,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/node_modules/nuxt/dist/app/components/nuxt-layout.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 582
+        },
+        {
+          "name": "replace",
+          "transform": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        }
+      ],
+      "virtual": false,
+      "totalTime": 582,
+      "invokeCount": 1,
+      "sourceSize": 4083,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/node_modules/nuxt/dist/app/components/nuxt-link.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 315
+        },
+        {
+          "name": "replace",
+          "transform": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 2
+        }
+      ],
+      "virtual": false,
+      "totalTime": 316,
+      "invokeCount": 1,
+      "sourceSize": 10108,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/node_modules/nuxt/dist/app/components/nuxt-root.vue",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 386
+        },
+        {
+          "name": "vite:vue",
+          "transform": 61
+        },
+        {
+          "name": "replace",
+          "transform": 1
+        },
+        {
+          "name": "nuxt:tree-shake-composables:transform",
+          "transform": 1
+        },
+        {
+          "name": "vite:build-import-analysis",
+          "transform": 1
+        }
+      ],
+      "virtual": false,
+      "totalTime": 450,
+      "invokeCount": 1,
+      "sourceSize": 2231,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/node_modules/nuxt/dist/app/components/route-provider.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 328
+        },
+        {
+          "name": "replace",
+          "transform": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 4
+        },
+        {
+          "name": "alias",
+          "resolveId": 364
+        }
+      ],
+      "virtual": false,
+      "totalTime": 329,
+      "invokeCount": 1,
+      "sourceSize": 1444,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/node_modules/nuxt/dist/app/components/test-component-wrapper.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 360
+        },
+        {
+          "name": "vite:build-import-analysis",
+          "transform": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        }
+      ],
+      "virtual": false,
+      "totalTime": 360,
+      "invokeCount": 1,
+      "sourceSize": 943,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/node_modules/nuxt/dist/app/components/utils.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 613
+        },
+        {
+          "name": "replace",
+          "transform": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 3
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 2
+        },
+        {
+          "name": "alias",
+          "resolveId": 702
+        },
+        {
+          "name": "alias",
+          "resolveId": 8
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        }
+      ],
+      "virtual": false,
+      "totalTime": 614,
+      "invokeCount": 1,
+      "sourceSize": 4361,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/node_modules/nuxt/dist/app/composables/chunk.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 464
+        },
+        {
+          "name": "replace",
+          "transform": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 464,
+      "invokeCount": 1,
+      "sourceSize": 889,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/node_modules/nuxt/dist/app/composables/error.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 560
+        },
+        {
+          "name": "replace",
+          "transform": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 5
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 2
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 4
+        },
+        {
+          "name": "alias",
+          "resolveId": 407
+        },
+        {
+          "name": "alias",
+          "resolveId": 4
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        }
+      ],
+      "virtual": false,
+      "totalTime": 560,
+      "invokeCount": 1,
+      "sourceSize": 1022,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/node_modules/nuxt/dist/app/composables/manifest.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 548
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        }
+      ],
+      "virtual": false,
+      "totalTime": 548,
+      "invokeCount": 1,
+      "sourceSize": 984,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/node_modules/nuxt/dist/app/composables/payload.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 540
+        },
+        {
+          "name": "replace",
+          "transform": 1
+        },
+        {
+          "name": "vite:build-import-analysis",
+          "transform": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 2
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 2
+        }
+      ],
+      "virtual": false,
+      "totalTime": 541,
+      "invokeCount": 1,
+      "sourceSize": 3787,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/node_modules/nuxt/dist/app/composables/preload.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 20
+        },
+        {
+          "name": "replace",
+          "transform": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 3
+        }
+      ],
+      "virtual": false,
+      "totalTime": 21,
+      "invokeCount": 1,
+      "sourceSize": 1595,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/node_modules/nuxt/dist/app/composables/ready.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 544
+        },
+        {
+          "name": "replace",
+          "transform": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 2
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 2
+        }
+      ],
+      "virtual": false,
+      "totalTime": 545,
+      "invokeCount": 1,
+      "sourceSize": 412,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/node_modules/nuxt/dist/app/composables/router.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 525
+        },
+        {
+          "name": "replace",
+          "transform": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 3
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 4
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 2
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 2
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 2
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 3
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "alias",
+          "resolveId": 551
+        },
+        {
+          "name": "alias",
+          "resolveId": 459
+        },
+        {
+          "name": "alias",
+          "resolveId": 3
+        },
+        {
+          "name": "alias",
+          "resolveId": 5
+        }
+      ],
+      "virtual": false,
+      "totalTime": 526,
+      "invokeCount": 1,
+      "sourceSize": 5958,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/node_modules/nuxt/dist/app/config.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 627
+        },
+        {
+          "name": "replace",
+          "transform": 0
+        },
+        {
+          "name": "vite:define",
+          "transform": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "alias",
+          "resolveId": 2
+        }
+      ],
+      "virtual": false,
+      "totalTime": 627,
+      "invokeCount": 1,
+      "sourceSize": 1577,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/node_modules/nuxt/dist/app/entry.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 3
+        },
+        {
+          "name": "replace",
+          "transform": 8
+        }
+      ],
+      "virtual": false,
+      "totalTime": 11,
+      "invokeCount": 1,
+      "sourceSize": 2110,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 535
+        },
+        {
+          "name": "replace",
+          "transform": 0
+        },
+        {
+          "name": "unctx:transform",
+          "transform": 1
+        }
+      ],
+      "virtual": false,
+      "totalTime": 536,
+      "invokeCount": 1,
+      "sourceSize": 356,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/node_modules/nuxt/dist/app/nuxt.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 181
+        },
+        {
+          "name": "replace",
+          "transform": 3
+        },
+        {
+          "name": "vite:define",
+          "transform": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 2
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 4
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 6
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 4
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 3
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 3
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 2
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 2
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 2
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "alias",
+          "resolveId": 140
+        },
+        {
+          "name": "alias",
+          "resolveId": 100
+        },
+        {
+          "name": "alias",
+          "resolveId": 6
+        },
+        {
+          "name": "alias",
+          "resolveId": 16
+        },
+        {
+          "name": "alias",
+          "resolveId": 3
+        },
+        {
+          "name": "alias",
+          "resolveId": 5
+        },
+        {
+          "name": "alias",
+          "resolveId": 8
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 5
+        }
+      ],
+      "virtual": false,
+      "totalTime": 184,
+      "invokeCount": 1,
+      "sourceSize": 6062,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/node_modules/nuxt/dist/app/plugins/check-outdated-build.client.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 367
+        },
+        {
+          "name": "replace",
+          "transform": 1
+        }
+      ],
+      "virtual": false,
+      "totalTime": 368,
+      "invokeCount": 1,
+      "sourceSize": 795,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/node_modules/nuxt/dist/app/plugins/chunk-reload.client.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 305
+        }
+      ],
+      "virtual": false,
+      "totalTime": 305,
+      "invokeCount": 1,
+      "sourceSize": 1047,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/node_modules/nuxt/dist/app/plugins/payload.client.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 192
+        },
+        {
+          "name": "vite:define",
+          "transform": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 192,
+      "invokeCount": 1,
+      "sourceSize": 1103,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/node_modules/nuxt/dist/app/plugins/revive-payload.client.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 59
+        },
+        {
+          "name": "unctx:transform",
+          "transform": 6
+        }
+      ],
+      "virtual": false,
+      "totalTime": 65,
+      "invokeCount": 1,
+      "sourceSize": 1542,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/node_modules/nuxt/dist/head/runtime/plugins/unhead.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 34
+        },
+        {
+          "name": "replace",
+          "transform": 1
+        }
+      ],
+      "virtual": false,
+      "totalTime": 35,
+      "invokeCount": 1,
+      "sourceSize": 1315,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/node_modules/nuxt/dist/pages/runtime/app.vue",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 498
+        },
+        {
+          "name": "vite:vue",
+          "transform": 3
+        },
+        {
+          "name": "nuxt:components-loader",
+          "transform": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 501,
+      "invokeCount": 1,
+      "sourceSize": 71,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/node_modules/nuxt/dist/pages/runtime/page.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 564
+        },
+        {
+          "name": "replace",
+          "transform": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 2
+        }
+      ],
+      "virtual": false,
+      "totalTime": 565,
+      "invokeCount": 1,
+      "sourceSize": 4549,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/node_modules/nuxt/dist/pages/runtime/plugins/prefetch.client.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 155
+        }
+      ],
+      "virtual": false,
+      "totalTime": 155,
+      "invokeCount": 1,
+      "sourceSize": 1268,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/node_modules/nuxt/dist/pages/runtime/plugins/router.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 208
+        },
+        {
+          "name": "replace",
+          "transform": 3
+        },
+        {
+          "name": "unctx:transform",
+          "transform": 11
+        }
+      ],
+      "virtual": false,
+      "totalTime": 222,
+      "invokeCount": 1,
+      "sourceSize": 7123,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/node_modules/nuxt/dist/pages/runtime/router.options.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 576
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 576,
+      "invokeCount": 1,
+      "sourceSize": 1714,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/node_modules/nuxt/dist/pages/runtime/utils.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 345
+        },
+        {
+          "name": "replace",
+          "transform": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        }
+      ],
+      "virtual": false,
+      "totalTime": 345,
+      "invokeCount": 1,
+      "sourceSize": 789,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/node_modules/nuxt/dist/pages/runtime/validate.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 542
+        },
+        {
+          "name": "replace",
+          "transform": 0
+        },
+        {
+          "name": "unctx:transform",
+          "transform": 2
+        }
+      ],
+      "virtual": false,
+      "totalTime": 544,
+      "invokeCount": 1,
+      "sourceSize": 931,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/node_modules/ofetch/dist/index.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 380
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 12
+        }
+      ],
+      "virtual": false,
+      "totalTime": 380,
+      "invokeCount": 1,
+      "sourceSize": 891,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/node_modules/ofetch/dist/shared/ofetch.00501375.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 453
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 2
+        }
+      ],
+      "virtual": false,
+      "totalTime": 453,
+      "invokeCount": 1,
+      "sourceSize": 8818,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/node_modules/pathe/dist/index.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 556
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 2
+        }
+      ],
+      "virtual": false,
+      "totalTime": 556,
+      "invokeCount": 1,
+      "sourceSize": 272,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/node_modules/pathe/dist/shared/pathe.92c04245.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 346
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 2
+        }
+      ],
+      "virtual": false,
+      "totalTime": 346,
+      "invokeCount": 1,
+      "sourceSize": 6215,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/node_modules/radix3/dist/index.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 527
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 4
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 7
+        }
+      ],
+      "virtual": false,
+      "totalTime": 527,
+      "invokeCount": 1,
+      "sourceSize": 7089,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/node_modules/ufo/dist/index.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 316
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 15
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 2
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 3
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 2
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 5
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 3
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 10
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 3
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 3
+        }
+      ],
+      "virtual": false,
+      "totalTime": 316,
+      "invokeCount": 1,
+      "sourceSize": 16020,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/node_modules/uncrypto/dist/crypto.web.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 493
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 6
+        }
+      ],
+      "virtual": false,
+      "totalTime": 493,
+      "invokeCount": 1,
+      "sourceSize": 348,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/node_modules/unctx/dist/index.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 569
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 2
+        }
+      ],
+      "virtual": false,
+      "totalTime": 569,
+      "invokeCount": 1,
+      "sourceSize": 3878,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/node_modules/unenv/runtime/_internal/utils.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 358
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        }
+      ],
+      "virtual": false,
+      "totalTime": 358,
+      "invokeCount": 1,
+      "sourceSize": 895,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/node_modules/unenv/runtime/node/events/_events.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 29
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        }
+      ],
+      "virtual": false,
+      "totalTime": 29,
+      "invokeCount": 1,
+      "sourceSize": 6481,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/node_modules/unenv/runtime/node/events/index.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 92
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 92,
+      "invokeCount": 1,
+      "sourceSize": 218,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/node_modules/unenv/runtime/node/http/_request.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 691
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 3
+        }
+      ],
+      "virtual": false,
+      "totalTime": 691,
+      "invokeCount": 1,
+      "sourceSize": 1129,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/node_modules/unenv/runtime/node/http/_response.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 478
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        }
+      ],
+      "virtual": false,
+      "totalTime": 478,
+      "invokeCount": 1,
+      "sourceSize": 2193,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/node_modules/unenv/runtime/node/net/socket.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 368
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 2
+        }
+      ],
+      "virtual": false,
+      "totalTime": 368,
+      "invokeCount": 1,
+      "sourceSize": 1340,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/node_modules/unenv/runtime/node/stream/duplex.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 75
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        }
+      ],
+      "virtual": false,
+      "totalTime": 75,
+      "invokeCount": 1,
+      "sourceSize": 678,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/node_modules/unenv/runtime/node/stream/readable.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 379
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        }
+      ],
+      "virtual": false,
+      "totalTime": 379,
+      "invokeCount": 1,
+      "sourceSize": 2697,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/node_modules/unenv/runtime/node/stream/writable.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 523
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 2
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 523,
+      "invokeCount": 1,
+      "sourceSize": 2357,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/node_modules/unhead/dist/index.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 438
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 5
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 438,
+      "invokeCount": 1,
+      "sourceSize": 20139,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/node_modules/vue-router/dist/vue-router.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 616
+        },
+        {
+          "name": "vite:define",
+          "transform": 5
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 2
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 2
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 621,
+      "invokeCount": 1,
+      "sourceSize": 147386,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/node_modules/vue/dist/vue.runtime.esm-bundler.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 93
+        },
+        {
+          "name": "vite:define",
+          "transform": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 8
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 4
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 4
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 4
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 6
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 2
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 2
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 2
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 3
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 3
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 2
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 3
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 2
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 3
+        }
+      ],
+      "virtual": false,
+      "totalTime": 94,
+      "invokeCount": 1,
+      "sourceSize": 517,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/pages/AccountCreation.vue",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 644
+        },
+        {
+          "name": "vite:vue",
+          "transform": 4
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "ssr-styles",
+          "resolveId": 3
+        }
+      ],
+      "virtual": false,
+      "totalTime": 648,
+      "invokeCount": 1,
+      "sourceSize": 860,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/pages/AccountCreation.vue?macro=true",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 533
+        },
+        {
+          "name": "vite:vue",
+          "transform": 15
+        },
+        {
+          "name": "nuxt:pages-macros-transform",
+          "transform": 5
+        }
+      ],
+      "virtual": false,
+      "totalTime": 553,
+      "invokeCount": 1,
+      "sourceSize": 860,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/pages/AccountCreation.vue?vue&type=style&index=0&scoped=2d5f3489&lang.css",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:vue",
+          "transform": 0
+        },
+        {
+          "name": "vite:css-post",
+          "transform": 0
+        }
+      ],
+      "virtual": true,
+      "totalTime": 0,
+      "invokeCount": 1,
+      "sourceSize": 56,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/pages/DashboardCreate.vue",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 588
+        },
+        {
+          "name": "vite:vue",
+          "transform": 4
+        }
+      ],
+      "virtual": false,
+      "totalTime": 592,
+      "invokeCount": 1,
+      "sourceSize": 1211,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/pages/DashboardCreate.vue?macro=true",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 586
+        },
+        {
+          "name": "vite:vue",
+          "transform": 10
+        },
+        {
+          "name": "nuxt:pages-macros-transform",
+          "transform": 1
+        }
+      ],
+      "virtual": false,
+      "totalTime": 597,
+      "invokeCount": 1,
+      "sourceSize": 1211,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/pages/DashboardCreate.vue?vue&type=style&index=0&scoped=3c2e7e17&lang.css",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:vue",
+          "transform": 0
+        },
+        {
+          "name": "vite:css",
+          "transform": 628
+        },
+        {
+          "name": "vite:vue",
+          "transform": 8
+        },
+        {
+          "name": "vite:css-post",
+          "transform": 0
+        }
+      ],
+      "virtual": true,
+      "totalTime": 636,
+      "invokeCount": 1,
+      "sourceSize": 254,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/pages/UserDetails.vue",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 573
+        },
+        {
+          "name": "vite:vue",
+          "transform": 9
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 2
+        },
+        {
+          "name": "ssr-styles",
+          "resolveId": 3
+        }
+      ],
+      "virtual": false,
+      "totalTime": 582,
+      "invokeCount": 1,
+      "sourceSize": 2032,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/pages/UserDetails.vue?macro=true",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 504
+        },
+        {
+          "name": "vite:vue",
+          "transform": 17
+        },
+        {
+          "name": "nuxt:pages-macros-transform",
+          "transform": 3
+        }
+      ],
+      "virtual": false,
+      "totalTime": 524,
+      "invokeCount": 1,
+      "sourceSize": 2032,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/pages/UserDetails.vue?vue&type=style&index=0&scoped=291d76f6&lang.css",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:vue",
+          "transform": 0
+        },
+        {
+          "name": "vite:css-post",
+          "transform": 0
+        }
+      ],
+      "virtual": true,
+      "totalTime": 0,
+      "invokeCount": 1,
+      "sourceSize": 56,
+      "distSize": 0
+    },
+    {
+      "id": "virtual:nuxt:D:/user-management-dashboard/.nuxt/app-component.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "virtual",
+          "transform": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "alias",
+          "resolveId": 15
+        }
+      ],
+      "virtual": true,
+      "totalTime": 0,
+      "invokeCount": 1,
+      "sourceSize": 100,
+      "distSize": 0
+    },
+    {
+      "id": "virtual:nuxt:D:/user-management-dashboard/.nuxt/components.islands.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "virtual",
+          "transform": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "alias",
+          "resolveId": 3
+        }
+      ],
+      "virtual": true,
+      "totalTime": 0,
+      "invokeCount": 1,
+      "sourceSize": 17,
+      "distSize": 0
+    },
+    {
+      "id": "virtual:nuxt:D:/user-management-dashboard/.nuxt/components.plugin.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "virtual",
+          "transform": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        }
+      ],
+      "virtual": true,
+      "totalTime": 0,
+      "invokeCount": 1,
+      "sourceSize": 117,
+      "distSize": 0
+    },
+    {
+      "id": "virtual:nuxt:D:/user-management-dashboard/.nuxt/css.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "virtual",
+          "resolveId": 1
+        },
+        {
+          "name": "alias",
+          "resolveId": 24
+        },
+        {
+          "name": "ssr-styles",
+          "resolveId": 26
+        }
+      ],
+      "virtual": true,
+      "totalTime": 0,
+      "invokeCount": 33,
+      "sourceSize": 0,
+      "distSize": 0
+    },
+    {
+      "id": "virtual:nuxt:D:/user-management-dashboard/.nuxt/error-component.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "virtual",
+          "transform": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "alias",
+          "resolveId": 15
+        }
+      ],
+      "virtual": true,
+      "totalTime": 0,
+      "invokeCount": 1,
+      "sourceSize": 113,
+      "distSize": 0
+    },
+    {
+      "id": "virtual:nuxt:D:/user-management-dashboard/.nuxt/fetch.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "virtual",
+          "transform": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "alias",
+          "resolveId": 23
+        }
+      ],
+      "virtual": true,
+      "totalTime": 0,
+      "invokeCount": 1,
+      "sourceSize": 168,
+      "distSize": 0
+    },
+    {
+      "id": "virtual:nuxt:D:/user-management-dashboard/.nuxt/layouts.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "virtual",
+          "transform": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "alias",
+          "resolveId": 7
+        },
+        {
+          "name": "alias",
+          "resolveId": 7
+        }
+      ],
+      "virtual": true,
+      "totalTime": 0,
+      "invokeCount": 1,
+      "sourceSize": 17,
+      "distSize": 0
+    },
+    {
+      "id": "virtual:nuxt:D:/user-management-dashboard/.nuxt/middleware.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "virtual",
+          "transform": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "alias",
+          "resolveId": 7
+        },
+        {
+          "name": "alias",
+          "resolveId": 17
+        }
+      ],
+      "virtual": true,
+      "totalTime": 0,
+      "invokeCount": 1,
+      "sourceSize": 338,
+      "distSize": 0
+    },
+    {
+      "id": "virtual:nuxt:D:/user-management-dashboard/.nuxt/nitro.client.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "virtual",
+          "transform": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "alias",
+          "resolveId": 23
+        }
+      ],
+      "virtual": true,
+      "totalTime": 0,
+      "invokeCount": 1,
+      "sourceSize": 70,
+      "distSize": 0
+    },
+    {
+      "id": "virtual:nuxt:D:/user-management-dashboard/.nuxt/nuxt.config.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "virtual",
+          "transform": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "alias",
+          "resolveId": 23
+        },
+        {
+          "name": "alias",
+          "resolveId": 10
+        },
+        {
+          "name": "alias",
+          "resolveId": 6
+        },
+        {
+          "name": "alias",
+          "resolveId": 9
+        },
+        {
+          "name": "alias",
+          "resolveId": 8
+        },
+        {
+          "name": "alias",
+          "resolveId": 5
+        },
+        {
+          "name": "alias",
+          "resolveId": 7
+        },
+        {
+          "name": "alias",
+          "resolveId": 9
+        },
+        {
+          "name": "alias",
+          "resolveId": 7
+        },
+        {
+          "name": "alias",
+          "resolveId": 6
+        }
+      ],
+      "virtual": true,
+      "totalTime": 0,
+      "invokeCount": 1,
+      "sourceSize": 907,
+      "distSize": 0
+    },
+    {
+      "id": "virtual:nuxt:D:/user-management-dashboard/.nuxt/pages.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "virtual",
+          "transform": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "alias",
+          "resolveId": 7
+        }
+      ],
+      "virtual": true,
+      "totalTime": 0,
+      "invokeCount": 1,
+      "sourceSize": 37,
+      "distSize": 0
+    },
+    {
+      "id": "virtual:nuxt:D:/user-management-dashboard/.nuxt/paths.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "virtual",
+          "transform": 0
+        },
+        {
+          "name": "replace",
+          "transform": 1
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "alias",
+          "resolveId": 23
+        },
+        {
+          "name": "alias",
+          "resolveId": 23
+        },
+        {
+          "name": "alias",
+          "resolveId": 4
+        },
+        {
+          "name": "alias",
+          "resolveId": 8
+        }
+      ],
+      "virtual": true,
+      "totalTime": 1,
+      "invokeCount": 1,
+      "sourceSize": 622,
+      "distSize": 0
+    },
+    {
+      "id": "virtual:nuxt:D:/user-management-dashboard/.nuxt/plugins/client.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "virtual",
+          "transform": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "alias",
+          "resolveId": 23
+        }
+      ],
+      "virtual": true,
+      "totalTime": 0,
+      "invokeCount": 1,
+      "sourceSize": 1273,
+      "distSize": 0
+    },
+    {
+      "id": "virtual:nuxt:D:/user-management-dashboard/.nuxt/root-component.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "virtual",
+          "transform": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "alias",
+          "resolveId": 23
+        }
+      ],
+      "virtual": true,
+      "totalTime": 0,
+      "invokeCount": 1,
+      "sourceSize": 107,
+      "distSize": 0
+    },
+    {
+      "id": "virtual:nuxt:D:/user-management-dashboard/.nuxt/router.options.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "virtual",
+          "transform": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "alias",
+          "resolveId": 17
+        }
+      ],
+      "virtual": true,
+      "totalTime": 0,
+      "invokeCount": 1,
+      "sourceSize": 252,
+      "distSize": 0
+    },
+    {
+      "id": "virtual:nuxt:D:/user-management-dashboard/.nuxt/routes.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "virtual",
+          "transform": 0
+        },
+        {
+          "name": "vite:build-import-analysis",
+          "transform": 1
+        },
+        {
+          "name": "virtual",
+          "resolveId": 1
+        },
+        {
+          "name": "alias",
+          "resolveId": 17
+        }
+      ],
+      "virtual": true,
+      "totalTime": 1,
+      "invokeCount": 1,
+      "sourceSize": 1639,
+      "distSize": 0
+    },
+    {
+      "id": "virtual:nuxt:D:/user-management-dashboard/.nuxt/test-component-wrapper.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "virtual",
+          "transform": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "alias",
+          "resolveId": 15
+        }
+      ],
+      "virtual": true,
+      "totalTime": 0,
+      "invokeCount": 1,
+      "sourceSize": 116,
+      "distSize": 0
+    },
+    {
+      "id": "virtual:nuxt:D:/user-management-dashboard/.nuxt/unhead-plugins.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "virtual",
+          "transform": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "alias",
+          "resolveId": 8
+        }
+      ],
+      "virtual": true,
+      "totalTime": 0,
+      "invokeCount": 1,
+      "sourceSize": 17,
+      "distSize": 0
+    },
+    {
+      "id": "virtual:nuxt:D:/user-management-dashboard/.nuxt/vue-router-stub.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "virtual",
+          "transform": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 1
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "alias",
+          "resolveId": 17
+        },
+        {
+          "name": "alias",
+          "resolveId": 9
+        }
+      ],
+      "virtual": true,
+      "totalTime": 0,
+      "invokeCount": 1,
+      "sourceSize": 27,
+      "distSize": 0
+    }
+  ],
+  "ssrModules": [
+    {
+      "id": "D:/user-management-dashboard/.nuxt/app.config.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 103
+        },
+        {
+          "name": "vite:define",
+          "transform": 1
+        },
+        {
+          "name": "alias",
+          "resolveId": 9
+        }
+      ],
+      "virtual": false,
+      "totalTime": 104,
+      "invokeCount": 1,
+      "sourceSize": 393,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/node_modules/@nuxt/ui-templates/dist/templates/error-404.vue",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 320
+        },
+        {
+          "name": "vite:vue",
+          "transform": 18
+        },
+        {
+          "name": "nuxt:imports-transform",
+          "transform": 4
+        },
+        {
+          "name": "nuxt:imports-transform",
+          "transform": 4
+        },
+        {
+          "name": "nuxt:components-loader",
+          "transform": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 4
+        },
+        {
+          "name": "ssr-styles",
+          "resolveId": 6
+        }
+      ],
+      "virtual": false,
+      "totalTime": 347,
+      "invokeCount": 1,
+      "sourceSize": 5283,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/node_modules/@nuxt/ui-templates/dist/templates/error-404.vue?vue&type=style&index=0&scoped=ccd3db62&lang.css",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:vue",
+          "transform": 0
+        },
+        {
+          "name": "vite:css",
+          "transform": 36
+        },
+        {
+          "name": "vite:vue",
+          "transform": 14
+        },
+        {
+          "name": "vite:css-post",
+          "transform": 0
+        }
+      ],
+      "virtual": true,
+      "totalTime": 50,
+      "invokeCount": 1,
+      "sourceSize": 3195,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/node_modules/@nuxt/ui-templates/dist/templates/error-404.vue?vue&type=style&index=0&scoped=ccd3db62&lang.css?inline&used",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:vue",
+          "transform": 0
+        },
+        {
+          "name": "vite:css",
+          "transform": 51
+        },
+        {
+          "name": "vite:vue",
+          "transform": 11
+        },
+        {
+          "name": "vite:css-post",
+          "transform": 0
+        }
+      ],
+      "virtual": true,
+      "totalTime": 62,
+      "invokeCount": 1,
+      "sourceSize": 3195,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/node_modules/@nuxt/ui-templates/dist/templates/error-500.vue",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 487
+        },
+        {
+          "name": "vite:vue",
+          "transform": 8
+        },
+        {
+          "name": "nuxt:imports-transform",
+          "transform": 2
+        },
+        {
+          "name": "nuxt:imports-transform",
+          "transform": 2
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "ssr-styles",
+          "resolveId": 6
+        }
+      ],
+      "virtual": false,
+      "totalTime": 499,
+      "invokeCount": 1,
+      "sourceSize": 3283,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/node_modules/@nuxt/ui-templates/dist/templates/error-500.vue?vue&type=style&index=0&scoped=df79c84d&lang.css",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:vue",
+          "transform": 0
+        },
+        {
+          "name": "vite:css",
+          "transform": 19
+        },
+        {
+          "name": "vite:vue",
+          "transform": 9
+        },
+        {
+          "name": "vite:css-post",
+          "transform": 0
+        }
+      ],
+      "virtual": true,
+      "totalTime": 28,
+      "invokeCount": 1,
+      "sourceSize": 1494,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/node_modules/@nuxt/ui-templates/dist/templates/error-500.vue?vue&type=style&index=0&scoped=df79c84d&lang.css?inline&used",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:vue",
+          "transform": 0
+        },
+        {
+          "name": "vite:css",
+          "transform": 20
+        },
+        {
+          "name": "vite:vue",
+          "transform": 7
+        },
+        {
+          "name": "vite:css-post",
+          "transform": 0
+        }
+      ],
+      "virtual": true,
+      "totalTime": 27,
+      "invokeCount": 1,
+      "sourceSize": 1494,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/node_modules/@nuxt/ui-templates/dist/templates/error-dev.vue",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 218
+        },
+        {
+          "name": "vite:vue",
+          "transform": 19
+        },
+        {
+          "name": "nuxt:imports-transform",
+          "transform": 8
+        },
+        {
+          "name": "nuxt:imports-transform",
+          "transform": 8
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 2
+        },
+        {
+          "name": "ssr-styles",
+          "resolveId": 6
+        }
+      ],
+      "virtual": false,
+      "totalTime": 253,
+      "invokeCount": 1,
+      "sourceSize": 4089,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/node_modules/@nuxt/ui-templates/dist/templates/error-dev.vue?vue&type=style&index=0&scoped=51ccc917&lang.css",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:vue",
+          "transform": 0
+        },
+        {
+          "name": "vite:css",
+          "transform": 27
+        },
+        {
+          "name": "vite:vue",
+          "transform": 13
+        },
+        {
+          "name": "vite:css-post",
+          "transform": 0
+        }
+      ],
+      "virtual": true,
+      "totalTime": 40,
+      "invokeCount": 1,
+      "sourceSize": 1946,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/node_modules/@unhead/vue/dist/index.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 334
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 11
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 3
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 2
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        }
+      ],
+      "virtual": false,
+      "totalTime": 334,
+      "invokeCount": 1,
+      "sourceSize": 3864,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/node_modules/@unhead/vue/dist/shared/vue.cf295fb1.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 508
+        },
+        {
+          "name": "vite:define",
+          "transform": 2
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 9
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 510,
+      "invokeCount": 1,
+      "sourceSize": 2633,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/node_modules/@unhead/vue/dist/shared/vue.f36acd1f.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 532
+        },
+        {
+          "name": "nuxt:tree-shake-composables:transform",
+          "transform": 2
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 6
+        }
+      ],
+      "virtual": false,
+      "totalTime": 534,
+      "invokeCount": 1,
+      "sourceSize": 1035,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/node_modules/nuxt/dist/app/compat/idle-callback.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 26
+        },
+        {
+          "name": "replace",
+          "transform": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 27,
+      "invokeCount": 1,
+      "sourceSize": 456,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/node_modules/nuxt/dist/app/components/injections.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 479
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 2
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 2
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 2
+        },
+        {
+          "name": "alias",
+          "resolveId": 14
+        }
+      ],
+      "virtual": false,
+      "totalTime": 479,
+      "invokeCount": 1,
+      "sourceSize": 103,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/node_modules/nuxt/dist/app/components/island-renderer.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 483
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        }
+      ],
+      "virtual": false,
+      "totalTime": 483,
+      "invokeCount": 1,
+      "sourceSize": 643,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/node_modules/nuxt/dist/app/components/nuxt-error-page.vue",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 511
+        },
+        {
+          "name": "vite:vue",
+          "transform": 11
+        },
+        {
+          "name": "replace",
+          "transform": 1
+        }
+      ],
+      "virtual": false,
+      "totalTime": 523,
+      "invokeCount": 1,
+      "sourceSize": 1688,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/node_modules/nuxt/dist/app/components/nuxt-layout.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 170
+        },
+        {
+          "name": "replace",
+          "transform": 1
+        },
+        {
+          "name": "nuxt:tree-shake-composables:transform",
+          "transform": 2
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 3
+        }
+      ],
+      "virtual": false,
+      "totalTime": 173,
+      "invokeCount": 1,
+      "sourceSize": 4083,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/node_modules/nuxt/dist/app/components/nuxt-link.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 198
+        },
+        {
+          "name": "replace",
+          "transform": 2
+        },
+        {
+          "name": "nuxt:tree-shake-composables:transform",
+          "transform": 6
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 2
+        }
+      ],
+      "virtual": false,
+      "totalTime": 206,
+      "invokeCount": 1,
+      "sourceSize": 10108,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/node_modules/nuxt/dist/app/components/nuxt-root.vue",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 427
+        },
+        {
+          "name": "vite:vue",
+          "transform": 47
+        },
+        {
+          "name": "replace",
+          "transform": 7
+        }
+      ],
+      "virtual": false,
+      "totalTime": 481,
+      "invokeCount": 1,
+      "sourceSize": 2231,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/node_modules/nuxt/dist/app/components/route-provider.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 391
+        },
+        {
+          "name": "replace",
+          "transform": 0
+        },
+        {
+          "name": "nuxt:tree-shake-composables:transform",
+          "transform": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 7
+        },
+        {
+          "name": "alias",
+          "resolveId": 423
+        }
+      ],
+      "virtual": false,
+      "totalTime": 392,
+      "invokeCount": 1,
+      "sourceSize": 1444,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/node_modules/nuxt/dist/app/components/test-component-wrapper.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 483
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 2
+        }
+      ],
+      "virtual": false,
+      "totalTime": 483,
+      "invokeCount": 1,
+      "sourceSize": 943,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/node_modules/nuxt/dist/app/components/utils.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 426
+        },
+        {
+          "name": "replace",
+          "transform": 3
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 5
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 3
+        },
+        {
+          "name": "alias",
+          "resolveId": 498
+        },
+        {
+          "name": "alias",
+          "resolveId": 14
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        }
+      ],
+      "virtual": false,
+      "totalTime": 429,
+      "invokeCount": 1,
+      "sourceSize": 4361,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/node_modules/nuxt/dist/app/composables/error.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 243
+        },
+        {
+          "name": "replace",
+          "transform": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 10
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 5
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 2
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 4
+        },
+        {
+          "name": "alias",
+          "resolveId": 281
+        },
+        {
+          "name": "alias",
+          "resolveId": 7
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        }
+      ],
+      "virtual": false,
+      "totalTime": 243,
+      "invokeCount": 1,
+      "sourceSize": 1022,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/node_modules/nuxt/dist/app/composables/manifest.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 471
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        }
+      ],
+      "virtual": false,
+      "totalTime": 471,
+      "invokeCount": 1,
+      "sourceSize": 984,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/node_modules/nuxt/dist/app/composables/payload.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 545
+        },
+        {
+          "name": "replace",
+          "transform": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 3
+        }
+      ],
+      "virtual": false,
+      "totalTime": 546,
+      "invokeCount": 1,
+      "sourceSize": 3787,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/node_modules/nuxt/dist/app/composables/preload.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 13
+        },
+        {
+          "name": "replace",
+          "transform": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 4
+        }
+      ],
+      "virtual": false,
+      "totalTime": 13,
+      "invokeCount": 1,
+      "sourceSize": 1595,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/node_modules/nuxt/dist/app/composables/ready.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 30
+        },
+        {
+          "name": "replace",
+          "transform": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 3
+        }
+      ],
+      "virtual": false,
+      "totalTime": 30,
+      "invokeCount": 1,
+      "sourceSize": 412,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/node_modules/nuxt/dist/app/composables/router.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 258
+        },
+        {
+          "name": "replace",
+          "transform": 2
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 9
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 3
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 2
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 3
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 2
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "alias",
+          "resolveId": 323
+        },
+        {
+          "name": "alias",
+          "resolveId": 10
+        },
+        {
+          "name": "alias",
+          "resolveId": 7
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 2
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 2
+        }
+      ],
+      "virtual": false,
+      "totalTime": 260,
+      "invokeCount": 1,
+      "sourceSize": 5958,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/node_modules/nuxt/dist/app/config.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 442
+        },
+        {
+          "name": "replace",
+          "transform": 1
+        },
+        {
+          "name": "vite:define",
+          "transform": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "alias",
+          "resolveId": 3
+        }
+      ],
+      "virtual": false,
+      "totalTime": 444,
+      "invokeCount": 1,
+      "sourceSize": 1577,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/node_modules/nuxt/dist/app/entry.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 6
+        },
+        {
+          "name": "replace",
+          "transform": 1
+        }
+      ],
+      "virtual": false,
+      "totalTime": 7,
+      "invokeCount": 1,
+      "sourceSize": 2110,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 309
+        },
+        {
+          "name": "replace",
+          "transform": 0
+        },
+        {
+          "name": "unctx:transform",
+          "transform": 1
+        },
+        {
+          "name": "unctx:transform",
+          "transform": 1
+        }
+      ],
+      "virtual": false,
+      "totalTime": 311,
+      "invokeCount": 1,
+      "sourceSize": 356,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/node_modules/nuxt/dist/app/nuxt.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 99
+        },
+        {
+          "name": "replace",
+          "transform": 3
+        },
+        {
+          "name": "vite:define",
+          "transform": 30
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 8
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 2
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 5
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 11
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 7
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 3
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 5
+        },
+        {
+          "name": "alias",
+          "resolveId": 125
+        },
+        {
+          "name": "alias",
+          "resolveId": 19
+        },
+        {
+          "name": "alias",
+          "resolveId": 27
+        },
+        {
+          "name": "alias",
+          "resolveId": 10
+        },
+        {
+          "name": "alias",
+          "resolveId": 7
+        },
+        {
+          "name": "alias",
+          "resolveId": 14
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 2
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 2
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 2
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 2
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 2
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 4
+        }
+      ],
+      "virtual": false,
+      "totalTime": 132,
+      "invokeCount": 1,
+      "sourceSize": 6062,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/node_modules/nuxt/dist/app/plugins/revive-payload.server.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 409
+        }
+      ],
+      "virtual": false,
+      "totalTime": 409,
+      "invokeCount": 1,
+      "sourceSize": 1177,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/node_modules/nuxt/dist/head/runtime/plugins/unhead.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 145
+        },
+        {
+          "name": "replace",
+          "transform": 1
+        }
+      ],
+      "virtual": false,
+      "totalTime": 146,
+      "invokeCount": 1,
+      "sourceSize": 1315,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/node_modules/nuxt/dist/pages/runtime/app.vue",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 500
+        },
+        {
+          "name": "vite:vue",
+          "transform": 3
+        },
+        {
+          "name": "nuxt:components-loader",
+          "transform": 1
+        }
+      ],
+      "virtual": false,
+      "totalTime": 504,
+      "invokeCount": 1,
+      "sourceSize": 71,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/node_modules/nuxt/dist/pages/runtime/page.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 213
+        },
+        {
+          "name": "replace",
+          "transform": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 2
+        }
+      ],
+      "virtual": false,
+      "totalTime": 214,
+      "invokeCount": 1,
+      "sourceSize": 4549,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/node_modules/nuxt/dist/pages/runtime/plugins/router.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 218
+        },
+        {
+          "name": "replace",
+          "transform": 2
+        },
+        {
+          "name": "unctx:transform",
+          "transform": 15
+        },
+        {
+          "name": "unctx:transform",
+          "transform": 15
+        }
+      ],
+      "virtual": false,
+      "totalTime": 250,
+      "invokeCount": 1,
+      "sourceSize": 7123,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/node_modules/nuxt/dist/pages/runtime/router.options.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 262
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 4
+        }
+      ],
+      "virtual": false,
+      "totalTime": 262,
+      "invokeCount": 1,
+      "sourceSize": 1714,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/node_modules/nuxt/dist/pages/runtime/utils.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 386
+        },
+        {
+          "name": "replace",
+          "transform": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        }
+      ],
+      "virtual": false,
+      "totalTime": 386,
+      "invokeCount": 1,
+      "sourceSize": 789,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/node_modules/nuxt/dist/pages/runtime/validate.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 292
+        },
+        {
+          "name": "replace",
+          "transform": 0
+        },
+        {
+          "name": "unctx:transform",
+          "transform": 2
+        },
+        {
+          "name": "unctx:transform",
+          "transform": 2
+        }
+      ],
+      "virtual": false,
+      "totalTime": 296,
+      "invokeCount": 1,
+      "sourceSize": 931,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/node_modules/unctx/dist/index.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 209
+        },
+        {
+          "name": "vite:define",
+          "transform": 19
+        }
+      ],
+      "virtual": false,
+      "totalTime": 228,
+      "invokeCount": 1,
+      "sourceSize": 3878,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/pages/AccountCreation.vue",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 408
+        },
+        {
+          "name": "vite:vue",
+          "transform": 4
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 2
+        },
+        {
+          "name": "ssr-styles",
+          "resolveId": 7
+        }
+      ],
+      "virtual": false,
+      "totalTime": 412,
+      "invokeCount": 1,
+      "sourceSize": 860,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/pages/AccountCreation.vue?macro=true",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 317
+        },
+        {
+          "name": "vite:vue",
+          "transform": 29
+        },
+        {
+          "name": "nuxt:pages-macros-transform",
+          "transform": 1
+        },
+        {
+          "name": "nuxt:pages-macros-transform",
+          "transform": 1
+        }
+      ],
+      "virtual": false,
+      "totalTime": 348,
+      "invokeCount": 1,
+      "sourceSize": 860,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/pages/AccountCreation.vue?vue&type=style&index=0&scoped=2d5f3489&lang.css",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:vue",
+          "transform": 0
+        },
+        {
+          "name": "vite:css-post",
+          "transform": 0
+        }
+      ],
+      "virtual": true,
+      "totalTime": 0,
+      "invokeCount": 1,
+      "sourceSize": 56,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/pages/AccountCreation.vue?vue&type=style&index=0&scoped=2d5f3489&lang.css?inline&used",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:vue",
+          "transform": 0
+        },
+        {
+          "name": "vite:css-post",
+          "transform": 0
+        }
+      ],
+      "virtual": true,
+      "totalTime": 0,
+      "invokeCount": 1,
+      "sourceSize": 56,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/pages/DashboardCreate.vue",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 452
+        },
+        {
+          "name": "vite:vue",
+          "transform": 5
+        }
+      ],
+      "virtual": false,
+      "totalTime": 457,
+      "invokeCount": 1,
+      "sourceSize": 1211,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/pages/DashboardCreate.vue?macro=true",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 351
+        },
+        {
+          "name": "vite:vue",
+          "transform": 15
+        },
+        {
+          "name": "nuxt:pages-macros-transform",
+          "transform": 1
+        },
+        {
+          "name": "nuxt:pages-macros-transform",
+          "transform": 1
+        }
+      ],
+      "virtual": false,
+      "totalTime": 368,
+      "invokeCount": 1,
+      "sourceSize": 1211,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/pages/DashboardCreate.vue?vue&type=style&index=0&scoped=3c2e7e17&lang.css",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:vue",
+          "transform": 0
+        },
+        {
+          "name": "vite:css",
+          "transform": 7
+        },
+        {
+          "name": "vite:vue",
+          "transform": 1
+        },
+        {
+          "name": "vite:css-post",
+          "transform": 0
+        }
+      ],
+      "virtual": true,
+      "totalTime": 8,
+      "invokeCount": 1,
+      "sourceSize": 254,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/pages/DashboardCreate.vue?vue&type=style&index=0&scoped=3c2e7e17&lang.css?inline&used",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:vue",
+          "transform": 0
+        },
+        {
+          "name": "vite:css",
+          "transform": 12
+        },
+        {
+          "name": "vite:vue",
+          "transform": 3
+        },
+        {
+          "name": "vite:css-post",
+          "transform": 1
+        }
+      ],
+      "virtual": true,
+      "totalTime": 16,
+      "invokeCount": 1,
+      "sourceSize": 254,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/pages/UserDetails.vue",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 508
+        },
+        {
+          "name": "vite:vue",
+          "transform": 10
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 3
+        },
+        {
+          "name": "ssr-styles",
+          "resolveId": 7
+        }
+      ],
+      "virtual": false,
+      "totalTime": 518,
+      "invokeCount": 1,
+      "sourceSize": 2032,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/pages/UserDetails.vue?macro=true",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 373
+        },
+        {
+          "name": "vite:vue",
+          "transform": 26
+        },
+        {
+          "name": "nuxt:pages-macros-transform",
+          "transform": 1
+        },
+        {
+          "name": "nuxt:pages-macros-transform",
+          "transform": 1
+        }
+      ],
+      "virtual": false,
+      "totalTime": 401,
+      "invokeCount": 1,
+      "sourceSize": 2032,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/pages/UserDetails.vue?vue&type=style&index=0&scoped=291d76f6&lang.css",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:vue",
+          "transform": 0
+        },
+        {
+          "name": "vite:css-post",
+          "transform": 1
+        }
+      ],
+      "virtual": true,
+      "totalTime": 1,
+      "invokeCount": 1,
+      "sourceSize": 56,
+      "distSize": 0
+    },
+    {
+      "id": "D:/user-management-dashboard/pages/UserDetails.vue?vue&type=style&index=0&scoped=291d76f6&lang.css?inline&used",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:vue",
+          "transform": 0
+        },
+        {
+          "name": "vite:css-post",
+          "transform": 0
+        }
+      ],
+      "virtual": true,
+      "totalTime": 0,
+      "invokeCount": 1,
+      "sourceSize": 56,
+      "distSize": 0
+    },
+    {
+      "id": "virtual:nuxt:D:/user-management-dashboard/.nuxt/app-component.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "virtual",
+          "transform": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "alias",
+          "resolveId": 26
+        }
+      ],
+      "virtual": true,
+      "totalTime": 0,
+      "invokeCount": 2,
+      "sourceSize": 100,
+      "distSize": 0
+    },
+    {
+      "id": "virtual:nuxt:D:/user-management-dashboard/.nuxt/components.islands.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "virtual",
+          "transform": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "alias",
+          "resolveId": 4
+        }
+      ],
+      "virtual": true,
+      "totalTime": 0,
+      "invokeCount": 2,
+      "sourceSize": 17,
+      "distSize": 0
+    },
+    {
+      "id": "virtual:nuxt:D:/user-management-dashboard/.nuxt/components.plugin.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "virtual",
+          "transform": 1
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        }
+      ],
+      "virtual": true,
+      "totalTime": 1,
+      "invokeCount": 2,
+      "sourceSize": 117,
+      "distSize": 0
+    },
+    {
+      "id": "virtual:nuxt:D:/user-management-dashboard/.nuxt/css.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "virtual",
+          "resolveId": 1
+        },
+        {
+          "name": "virtual",
+          "resolveId": 1
+        },
+        {
+          "name": "alias",
+          "resolveId": 67
+        },
+        {
+          "name": "ssr-styles",
+          "resolveId": 70
+        }
+      ],
+      "virtual": true,
+      "totalTime": 0,
+      "invokeCount": 39,
+      "sourceSize": 0,
+      "distSize": 0
+    },
+    {
+      "id": "virtual:nuxt:D:/user-management-dashboard/.nuxt/error-component.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "virtual",
+          "transform": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "alias",
+          "resolveId": 26
+        }
+      ],
+      "virtual": true,
+      "totalTime": 0,
+      "invokeCount": 2,
+      "sourceSize": 113,
+      "distSize": 0
+    },
+    {
+      "id": "virtual:nuxt:D:/user-management-dashboard/.nuxt/fetch.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "virtual",
+          "transform": 1
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "alias",
+          "resolveId": 68
+        }
+      ],
+      "virtual": true,
+      "totalTime": 1,
+      "invokeCount": 2,
+      "sourceSize": 168,
+      "distSize": 0
+    },
+    {
+      "id": "virtual:nuxt:D:/user-management-dashboard/.nuxt/layouts.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "virtual",
+          "transform": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "alias",
+          "resolveId": 9
+        }
+      ],
+      "virtual": true,
+      "totalTime": 0,
+      "invokeCount": 2,
+      "sourceSize": 17,
+      "distSize": 0
+    },
+    {
+      "id": "virtual:nuxt:D:/user-management-dashboard/.nuxt/middleware.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "virtual",
+          "transform": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 1
+        },
+        {
+          "name": "virtual",
+          "resolveId": 1
+        },
+        {
+          "name": "alias",
+          "resolveId": 28
+        }
+      ],
+      "virtual": true,
+      "totalTime": 0,
+      "invokeCount": 2,
+      "sourceSize": 338,
+      "distSize": 0
+    },
+    {
+      "id": "virtual:nuxt:D:/user-management-dashboard/.nuxt/nuxt.config.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "virtual",
+          "transform": 1
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "alias",
+          "resolveId": 67
+        },
+        {
+          "name": "alias",
+          "resolveId": 6
+        },
+        {
+          "name": "alias",
+          "resolveId": 11
+        },
+        {
+          "name": "alias",
+          "resolveId": 11
+        },
+        {
+          "name": "alias",
+          "resolveId": 11
+        },
+        {
+          "name": "alias",
+          "resolveId": 16
+        },
+        {
+          "name": "alias",
+          "resolveId": 9
+        },
+        {
+          "name": "alias",
+          "resolveId": 15
+        },
+        {
+          "name": "alias",
+          "resolveId": 8
+        }
+      ],
+      "virtual": true,
+      "totalTime": 1,
+      "invokeCount": 2,
+      "sourceSize": 907,
+      "distSize": 0
+    },
+    {
+      "id": "virtual:nuxt:D:/user-management-dashboard/.nuxt/pages.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "virtual",
+          "transform": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "alias",
+          "resolveId": 9
+        }
+      ],
+      "virtual": true,
+      "totalTime": 0,
+      "invokeCount": 2,
+      "sourceSize": 37,
+      "distSize": 0
+    },
+    {
+      "id": "virtual:nuxt:D:/user-management-dashboard/.nuxt/paths.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "virtual",
+          "transform": 1
+        },
+        {
+          "name": "replace",
+          "transform": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "alias",
+          "resolveId": 68
+        },
+        {
+          "name": "alias",
+          "resolveId": 32
+        },
+        {
+          "name": "alias",
+          "resolveId": 16
+        }
+      ],
+      "virtual": true,
+      "totalTime": 1,
+      "invokeCount": 2,
+      "sourceSize": 622,
+      "distSize": 0
+    },
+    {
+      "id": "virtual:nuxt:D:/user-management-dashboard/.nuxt/plugins/server.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "virtual",
+          "transform": 1
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "alias",
+          "resolveId": 67
+        }
+      ],
+      "virtual": true,
+      "totalTime": 1,
+      "invokeCount": 2,
+      "sourceSize": 598,
+      "distSize": 0
+    },
+    {
+      "id": "virtual:nuxt:D:/user-management-dashboard/.nuxt/root-component.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "virtual",
+          "transform": 1
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "alias",
+          "resolveId": 67
+        }
+      ],
+      "virtual": true,
+      "totalTime": 1,
+      "invokeCount": 2,
+      "sourceSize": 107,
+      "distSize": 0
+    },
+    {
+      "id": "virtual:nuxt:D:/user-management-dashboard/.nuxt/router.options.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "virtual",
+          "transform": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 1
+        },
+        {
+          "name": "virtual",
+          "resolveId": 1
+        },
+        {
+          "name": "alias",
+          "resolveId": 28
+        }
+      ],
+      "virtual": true,
+      "totalTime": 0,
+      "invokeCount": 2,
+      "sourceSize": 252,
+      "distSize": 0
+    },
+    {
+      "id": "virtual:nuxt:D:/user-management-dashboard/.nuxt/routes.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "virtual",
+          "transform": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 1
+        },
+        {
+          "name": "virtual",
+          "resolveId": 1
+        },
+        {
+          "name": "alias",
+          "resolveId": 28
+        }
+      ],
+      "virtual": true,
+      "totalTime": 0,
+      "invokeCount": 2,
+      "sourceSize": 1639,
+      "distSize": 0
+    },
+    {
+      "id": "virtual:nuxt:D:/user-management-dashboard/.nuxt/test-component-wrapper.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "virtual",
+          "transform": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "alias",
+          "resolveId": 26
+        }
+      ],
+      "virtual": true,
+      "totalTime": 0,
+      "invokeCount": 2,
+      "sourceSize": 116,
+      "distSize": 0
+    },
+    {
+      "id": "virtual:nuxt:D:/user-management-dashboard/.nuxt/unhead-plugins.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "virtual",
+          "transform": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "alias",
+          "resolveId": 20
+        }
+      ],
+      "virtual": true,
+      "totalTime": 0,
+      "invokeCount": 2,
+      "sourceSize": 17,
+      "distSize": 0
+    },
+    {
+      "id": "virtual:nuxt:D:/user-management-dashboard/.nuxt/vue-router-stub.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "virtual",
+          "transform": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 1
+        },
+        {
+          "name": "virtual",
+          "resolveId": 1
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "virtual",
+          "resolveId": 0
+        },
+        {
+          "name": "alias",
+          "resolveId": 28
+        },
+        {
+          "name": "alias",
+          "resolveId": 15
+        }
+      ],
+      "virtual": true,
+      "totalTime": 0,
+      "invokeCount": 2,
+      "sourceSize": 27,
+      "distSize": 0
+    }
+  ]
+}

@@ -1,0 +1,277 @@
+{
+  "resolvedId": "D:/user-management-dashboard/pages/DashboardCreate.vue?macro=true",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "<template>\r\n    <div>\r\n      <!-- Tabs -->\r\n      <div class=\"tabs\">\r\n        <button @click=\"activeTab = 'userDetails'\" :class=\"{ 'active': activeTab === 'userDetails' }\">User Details</button>\r\n        <button @click=\"activeTab = 'accountCreation'\" :class=\"{ 'active': activeTab === 'accountCreation' }\">Account Creation</button>\r\n      </div>\r\n  \r\n      <!-- Content based on active tab -->\r\n      <div v-if=\"activeTab === 'userDetails'\">\r\n        <UserDetails />\r\n      </div>\r\n      <div v-else-if=\"activeTab === 'accountCreation'\">\r\n        <AccountCreation />\r\n      </div>\r\n    </div>\r\n  </template>\r\n  \r\n  <script>\r\n  import UserDetails from './UserDetails.vue';\r\n  import AccountCreation from './AccountCreation.vue';\r\n  \r\n  export default {\r\n    components: {\r\n      UserDetails,\r\n      AccountCreation,\r\n    },\r\n    data() {\r\n      return {\r\n        activeTab: 'userDetails',\r\n      };\r\n    },\r\n  };\r\n  </script>\r\n  \r\n  <style scoped>\r\n  /* Add your custom styles or use Tailwind classes */\r\n  .tabs {\r\n    display: flex;\r\n    margin-bottom: 20px;\r\n  }\r\n  \r\n  .tabs button {\r\n    margin-right: 10px;\r\n    cursor: pointer;\r\n  }\r\n  \r\n  .tabs button.active {\r\n    font-weight: bold;\r\n  }\r\n  </style>\r\n  ",
+      "start": 1699985922563,
+      "end": 1699985922914,
+      "sourcemaps": null
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1699985922914,
+      "end": 1699985922914,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1699985922914,
+      "end": 1699985922914,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1699985922914,
+      "end": 1699985922915,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1699985922914,
+      "end": 1699985922915,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1699985922915,
+      "end": 1699985922915,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "start": 1699985922915,
+      "end": 1699985922915,
+      "order": "normal"
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1699985922915,
+      "end": 1699985922915,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1699985922915,
+      "end": 1699985922915,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1699985922915,
+      "end": 1699985922915,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": "\r\n  import UserDetails from './UserDetails.vue';\r\n  import AccountCreation from './AccountCreation.vue';\r\n  \r\n  const _sfc_main = {\r\n    components: {\r\n      UserDetails,\r\n      AccountCreation,\r\n    },\r\n    data() {\r\n      return {\r\n        activeTab: 'userDetails',\r\n      };\r\n    },\r\n  };\r\n  \nimport { resolveComponent as _resolveComponent } from \"vue\"\nimport { ssrRenderClass as _ssrRenderClass, ssrRenderComponent as _ssrRenderComponent, ssrRenderAttrs as _ssrRenderAttrs } from \"vue/server-renderer\"\n\nfunction _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {\n  const _component_UserDetails = _resolveComponent(\"UserDetails\")\n  const _component_AccountCreation = _resolveComponent(\"AccountCreation\")\n\n  _push(`<div${\n    _ssrRenderAttrs(_attrs)\n  } data-v-3c2e7e17><div class=\"tabs\" data-v-3c2e7e17><button class=\"${\n    _ssrRenderClass({ 'active': $data.activeTab === 'userDetails' })\n  }\" data-v-3c2e7e17>User Details</button><button class=\"${\n    _ssrRenderClass({ 'active': $data.activeTab === 'accountCreation' })\n  }\" data-v-3c2e7e17>Account Creation</button></div>`)\n  if ($data.activeTab === 'userDetails') {\n    _push(`<div data-v-3c2e7e17>`)\n    _push(_ssrRenderComponent(_component_UserDetails, null, null, _parent))\n    _push(`</div>`)\n  } else if ($data.activeTab === 'accountCreation') {\n    _push(`<div data-v-3c2e7e17>`)\n    _push(_ssrRenderComponent(_component_AccountCreation, null, null, _parent))\n    _push(`</div>`)\n  } else {\n    _push(`<!---->`)\n  }\n  _push(`</div>`)\n}\n\nimport \"D:/user-management-dashboard/pages/DashboardCreate.vue?vue&type=style&index=0&scoped=3c2e7e17&lang.css\"\n\nimport { useSSRContext as __vite_useSSRContext } from 'vue'\nconst _sfc_setup = _sfc_main.setup\n_sfc_main.setup = (props, ctx) => {\n  const ssrContext = __vite_useSSRContext()\n  ;(ssrContext.modules || (ssrContext.modules = new Set())).add(\"pages/DashboardCreate.vue\")\n  return _sfc_setup ? _sfc_setup(props, ctx) : undefined\n}\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['ssrRender',_sfc_ssrRender],['__scopeId',\"data-v-3c2e7e17\"]])",
+      "start": 1699985922915,
+      "end": 1699985922930,
+      "order": "normal",
+      "sourcemaps": {
+        "version": 3,
+        "file": "D:/user-management-dashboard/pages/DashboardCreate.vue",
+        "names": [],
+        "sources": [
+          "D:/user-management-dashboard/pages/DashboardCreate.vue"
+        ],
+        "sourcesContent": [
+          "<template>\r\n    <div>\r\n      <!-- Tabs -->\r\n      <div class=\"tabs\">\r\n        <button @click=\"activeTab = 'userDetails'\" :class=\"{ 'active': activeTab === 'userDetails' }\">User Details</button>\r\n        <button @click=\"activeTab = 'accountCreation'\" :class=\"{ 'active': activeTab === 'accountCreation' }\">Account Creation</button>\r\n      </div>\r\n  \r\n      <!-- Content based on active tab -->\r\n      <div v-if=\"activeTab === 'userDetails'\">\r\n        <UserDetails />\r\n      </div>\r\n      <div v-else-if=\"activeTab === 'accountCreation'\">\r\n        <AccountCreation />\r\n      </div>\r\n    </div>\r\n  </template>\r\n  \r\n  <script>\r\n  import UserDetails from './UserDetails.vue';\r\n  import AccountCreation from './AccountCreation.vue';\r\n  \r\n  export default {\r\n    components: {\r\n      UserDetails,\r\n      AccountCreation,\r\n    },\r\n    data() {\r\n      return {\r\n        activeTab: 'userDetails',\r\n      };\r\n    },\r\n  };\r\n  </script>\r\n  \r\n  <style scoped>\r\n  /* Add your custom styles or use Tailwind classes */\r\n  .tabs {\r\n    display: flex;\r\n    margin-bottom: 20px;\r\n  }\r\n  \r\n  .tabs button {\r\n    margin-right: 10px;\r\n    cursor: pointer;\r\n  }\r\n  \r\n  .tabs button.active {\r\n    font-weight: bold;\r\n  }\r\n  </style>\r\n  "
+        ],
+        "mappings": ";EAmBE,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;EAC3C,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;;EAEnD,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE;IACb,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE;MACV,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;MACX,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;IACjB,CAAC;IACD,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE;MACL,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE;QACL,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;MAC1B,CAAC;IACH,CAAC;EACH,CAAC;;;;;;;;;;;;gCA5BoE,eAAS;;gCACL,eAAS;;MAInE,eAAS;;;;aAGJ,eAAS"
+      }
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1699985922931,
+      "end": 1699985922931,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1699985922931,
+      "end": 1699985922931,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1699985922931,
+      "end": 1699985922931,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1699985922931,
+      "end": 1699985922931,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1699985922931,
+      "end": 1699985922931,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1699985922931,
+      "end": 1699985922931,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1699985922931,
+      "end": 1699985922931,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1699985922931,
+      "end": 1699985922931,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1699985922931,
+      "end": 1699985922932,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1699985922932,
+      "end": 1699985922932,
+      "order": "normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1699985922932,
+      "end": 1699985922932,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1699985922932,
+      "end": 1699985922932,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1699985922932,
+      "end": 1699985922932,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1699985922932,
+      "end": 1699985922932,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1699985922932,
+      "end": 1699985922932,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1699985922932,
+      "end": 1699985922932,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1699985922932,
+      "end": 1699985922932,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1699985922932,
+      "end": 1699985922932,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1699985922932,
+      "end": 1699985922934,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1699985922932,
+      "end": 1699985922934,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1699985922934,
+      "end": 1699985922934,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1699985922934,
+      "end": 1699985922934,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "result": "\nconst __nuxt_page_meta = null\nexport default __nuxt_page_meta\n",
+      "start": 1699985922934,
+      "end": 1699985922935,
+      "order": "post",
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          ""
+        ],
+        "names": [],
+        "mappings": "AAAA;AAAA;AAAA;AAAA"
+      }
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "result": "\nconst __nuxt_page_meta = null\nexport default __nuxt_page_meta\n",
+      "start": 1699985922934,
+      "end": 1699985922935,
+      "order": "post",
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          ""
+        ],
+        "names": [],
+        "mappings": "AAAA;AAAA;AAAA;AAAA"
+      }
+    },
+    {
+      "name": "nuxt:tree-shake-template",
+      "start": 1699985922935,
+      "end": 1699985922935,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1699985922935,
+      "end": 1699985922936,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1699985922936,
+      "end": 1699985922936,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1699985922936,
+      "end": 1699985922936,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1699985922936,
+      "end": 1699985922936,
+      "order": "normal"
+    }
+  ]
+}

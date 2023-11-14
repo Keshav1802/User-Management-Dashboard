@@ -1,0 +1,278 @@
+{
+  "resolvedId": "D:/user-management-dashboard/pages/AccountCreation.vue?vue&type=style&index=0&scoped=2d5f3489&lang.css",
+  "transforms": [
+    {
+      "name": "vite:vue",
+      "result": "\r\n/* Add your custom styles or use Tailwind classes */\r\n",
+      "start": 1699985923006,
+      "end": 1699985923006,
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          "D:/user-management-dashboard/pages/AccountCreation.vue"
+        ],
+        "names": [],
+        "mappings": ";AAmCA,CAAC,EAAE,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,EAAE,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC",
+        "file": "D:/user-management-dashboard/pages/AccountCreation.vue",
+        "sourceRoot": "",
+        "sourcesContent": [
+          "<template>\r\n  <div>\r\n    <h1>Account Creation</h1>\r\n    <!-- Account creation form -->\r\n    <form @submit.prevent=\"submitForm\">\r\n      <label for=\"username\">Username:</label>\r\n      <input v-model=\"username\" type=\"text\" id=\"username\" required />\r\n\r\n      <label for=\"password\">Password:</label>\r\n      <input v-model=\"password\" type=\"password\" id=\"password\" required />\r\n\r\n      <button type=\"submit\">Create Account</button>\r\n    </form>\r\n  </div>\r\n</template>\r\n\r\n<script>\r\nexport default {\r\n  data() {\r\n    return {\r\n      username: '',\r\n      password: '',\r\n    };\r\n  },\r\n  methods: {\r\n    submitForm() {\r\n      // Handle dummy request logic\r\n      console.log('Creating account:', this.username);\r\n      console.log('Password:', this.password);\r\n    },\r\n  },\r\n};\r\n</script>\r\n\r\n<style scoped>\r\n/* Add your custom styles or use Tailwind classes */\r\n</style>\r\n"
+        ]
+      }
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1699985923006,
+      "end": 1699985923006,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1699985923006,
+      "end": 1699985923006,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1699985923007,
+      "end": 1699985923007,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1699985923007,
+      "end": 1699985923007,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1699985923007,
+      "end": 1699985923007,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "result": "",
+      "start": 1699985923007,
+      "end": 1699985923010,
+      "order": "normal",
+      "sourcemaps": {
+        "file": "D:/user-management-dashboard/pages/AccountCreation.vue",
+        "mappings": "",
+        "names": [],
+        "sources": [],
+        "version": 3
+      }
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1699985923010,
+      "end": 1699985923010,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1699985923010,
+      "end": 1699985923010,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1699985923010,
+      "end": 1699985923010,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": "",
+      "start": 1699985923010,
+      "end": 1699985923011,
+      "order": "normal",
+      "sourcemaps": {
+        "file": "D:/user-management-dashboard/pages/AccountCreation.vue",
+        "mappings": "",
+        "names": [],
+        "sources": [],
+        "version": 3
+      }
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1699985923011,
+      "end": 1699985923011,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1699985923011,
+      "end": 1699985923011,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1699985923011,
+      "end": 1699985923011,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1699985923011,
+      "end": 1699985923011,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1699985923011,
+      "end": 1699985923011,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1699985923012,
+      "end": 1699985923012,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1699985923012,
+      "end": 1699985923012,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1699985923012,
+      "end": 1699985923012,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1699985923012,
+      "end": 1699985923012,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "result": "export default ''",
+      "start": 1699985923012,
+      "end": 1699985923012,
+      "order": "normal",
+      "sourcemaps": {
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1699985923012,
+      "end": 1699985923012,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1699985923012,
+      "end": 1699985923012,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1699985923012,
+      "end": 1699985923012,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1699985923012,
+      "end": 1699985923012,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1699985923012,
+      "end": 1699985923012,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1699985923012,
+      "end": 1699985923012,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1699985923013,
+      "end": 1699985923013,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1699985923013,
+      "end": 1699985923013,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1699985923013,
+      "end": 1699985923013,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1699985923013,
+      "end": 1699985923013,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1699985923013,
+      "end": 1699985923013,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1699985923013,
+      "end": 1699985923013,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1699985923013,
+      "end": 1699985923013,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1699985923013,
+      "end": 1699985923013,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-template",
+      "start": 1699985923013,
+      "end": 1699985923014,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1699985923014,
+      "end": 1699985923014,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1699985923014,
+      "end": 1699985923014,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1699985923014,
+      "end": 1699985923014,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1699985923014,
+      "end": 1699985923014,
+      "order": "normal"
+    }
+  ]
+}

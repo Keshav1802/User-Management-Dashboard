@@ -1,0 +1,278 @@
+{
+  "resolvedId": "D:/user-management-dashboard/pages/UserDetails.vue?vue&type=style&index=0&scoped=291d76f6&lang.css",
+  "transforms": [
+    {
+      "name": "vite:vue",
+      "result": "\r\n/* Add your custom styles or use Tailwind classes */\r\n",
+      "start": 1699985923120,
+      "end": 1699985923120,
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          "D:/user-management-dashboard/pages/UserDetails.vue"
+        ],
+        "names": [],
+        "mappings": ";AA6EA,CAAC,EAAE,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,EAAE,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC",
+        "file": "D:/user-management-dashboard/pages/UserDetails.vue",
+        "sourceRoot": "",
+        "sourcesContent": [
+          "<template>\r\n  <div>\r\n    <h1>User Details</h1>\r\n    <!-- Search bar -->\r\n    <input v-model=\"searchTerm\" placeholder=\"Search user...\" />\r\n    \r\n    <!-- User table -->\r\n    <table>\r\n      <thead>\r\n        <tr>\r\n          <th>Username</th>\r\n          <th>Email</th>\r\n          <th>Phone</th>\r\n          <th>ID</th>\r\n          <th>Creation Date</th>\r\n        </tr>\r\n      </thead>\r\n      <tbody>\r\n        <tr v-for=\"user in filteredUsers\" :key=\"user.id\" @click=\"openModal(user)\">\r\n          <td>{{ user.username }}</td>\r\n          <td>{{ user.email }}</td>\r\n          <td>{{ user.phone }}</td>\r\n          <td>{{ user.id }}</td>\r\n          <td>{{ user.creationDate }}</td>\r\n        </tr>\r\n      </tbody>\r\n    </table>\r\n\r\n    <!-- Modal for user report -->\r\n    <div v-if=\"selectedUser\" class=\"modal\">\r\n      <button @click=\"closeModal\">Close</button>\r\n      <button @click=\"generateReport(selectedUser)\">Generate Report</button>\r\n    </div>\r\n  </div>\r\n</template>\r\n\r\n<script>\r\nexport default {\r\n  data() {\r\n    return {\r\n      users: [], // Placeholder for user data\r\n      searchTerm: '',\r\n      selectedUser: null,\r\n    };\r\n  },\r\n  computed: {\r\n    filteredUsers() {\r\n      return this.users.filter(user =>\r\n        user.username.toLowerCase().includes(this.searchTerm.toLowerCase())\r\n      );\r\n    },\r\n  },\r\n  methods: {\r\n    openModal(user) {\r\n      this.selectedUser = user;\r\n    },\r\n    closeModal() {\r\n      this.selectedUser = null;\r\n    },\r\n    generateReport(user) {\r\n      // Implement report generation logic\r\n      console.log(`Generating report for user: ${user.username}`);\r\n    },\r\n  },\r\n  mounted() {\r\n    // Fetch user data from a placeholder database\r\n    // You can use Axios or fetch API for this\r\n    // Dummy data for demonstration purposes\r\n    this.users = [\r\n      { id: 1, username: 'user1', email: 'user1@email.com', phone: '123456789', creationDate: '2023-01-01' },\r\n      // Add more users...\r\n    ];\r\n  },\r\n};\r\n</script>\r\n\r\n<style scoped>\r\n/* Add your custom styles or use Tailwind classes */\r\n</style>\r\n"
+        ]
+      }
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1699985923121,
+      "end": 1699985923121,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1699985923121,
+      "end": 1699985923121,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1699985923121,
+      "end": 1699985923121,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1699985923121,
+      "end": 1699985923121,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1699985923121,
+      "end": 1699985923121,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "result": "",
+      "start": 1699985923121,
+      "end": 1699985923124,
+      "order": "normal",
+      "sourcemaps": {
+        "file": "D:/user-management-dashboard/pages/UserDetails.vue",
+        "mappings": "",
+        "names": [],
+        "sources": [],
+        "version": 3
+      }
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1699985923124,
+      "end": 1699985923124,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1699985923124,
+      "end": 1699985923124,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1699985923124,
+      "end": 1699985923124,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": "",
+      "start": 1699985923124,
+      "end": 1699985923125,
+      "order": "normal",
+      "sourcemaps": {
+        "file": "D:/user-management-dashboard/pages/UserDetails.vue",
+        "mappings": "",
+        "names": [],
+        "sources": [],
+        "version": 3
+      }
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1699985923125,
+      "end": 1699985923125,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1699985923125,
+      "end": 1699985923125,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1699985923125,
+      "end": 1699985923125,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1699985923125,
+      "end": 1699985923125,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1699985923125,
+      "end": 1699985923125,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1699985923125,
+      "end": 1699985923125,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1699985923125,
+      "end": 1699985923125,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1699985923125,
+      "end": 1699985923125,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1699985923125,
+      "end": 1699985923125,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "result": "export default ''",
+      "start": 1699985923125,
+      "end": 1699985923126,
+      "order": "normal",
+      "sourcemaps": {
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1699985923126,
+      "end": 1699985923126,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1699985923126,
+      "end": 1699985923126,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1699985923126,
+      "end": 1699985923126,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1699985923126,
+      "end": 1699985923126,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1699985923126,
+      "end": 1699985923126,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1699985923126,
+      "end": 1699985923126,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1699985923126,
+      "end": 1699985923126,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1699985923126,
+      "end": 1699985923126,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1699985923126,
+      "end": 1699985923126,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1699985923126,
+      "end": 1699985923126,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1699985923126,
+      "end": 1699985923126,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1699985923126,
+      "end": 1699985923126,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1699985923126,
+      "end": 1699985923126,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1699985923126,
+      "end": 1699985923126,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-template",
+      "start": 1699985923126,
+      "end": 1699985923126,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1699985923126,
+      "end": 1699985923126,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1699985923126,
+      "end": 1699985923126,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1699985923127,
+      "end": 1699985923127,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1699985923127,
+      "end": 1699985923127,
+      "order": "normal"
+    }
+  ]
+}

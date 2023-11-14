@@ -1,0 +1,214 @@
+{
+  "resolvedId": "D:/user-management-dashboard/pages/DashboardCreate.vue",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "<template>\r\n    <div>\r\n      <!-- Tabs -->\r\n      <div class=\"tabs\">\r\n        <button @click=\"activeTab = 'userDetails'\" :class=\"{ 'active': activeTab === 'userDetails' }\">User Details</button>\r\n        <button @click=\"activeTab = 'accountCreation'\" :class=\"{ 'active': activeTab === 'accountCreation' }\">Account Creation</button>\r\n      </div>\r\n  \r\n      <!-- Content based on active tab -->\r\n      <div v-if=\"activeTab === 'userDetails'\">\r\n        <UserDetails />\r\n      </div>\r\n      <div v-else-if=\"activeTab === 'accountCreation'\">\r\n        <AccountCreation />\r\n      </div>\r\n    </div>\r\n  </template>\r\n  \r\n  <script>\r\n  import UserDetails from './UserDetails.vue';\r\n  import AccountCreation from './AccountCreation.vue';\r\n  \r\n  export default {\r\n    components: {\r\n      UserDetails,\r\n      AccountCreation,\r\n    },\r\n    data() {\r\n      return {\r\n        activeTab: 'userDetails',\r\n      };\r\n    },\r\n  };\r\n  </script>\r\n  \r\n  <style scoped>\r\n  /* Add your custom styles or use Tailwind classes */\r\n  .tabs {\r\n    display: flex;\r\n    margin-bottom: 20px;\r\n  }\r\n  \r\n  .tabs button {\r\n    margin-right: 10px;\r\n    cursor: pointer;\r\n  }\r\n  \r\n  .tabs button.active {\r\n    font-weight: bold;\r\n  }\r\n  </style>\r\n  ",
+      "start": 1699985918128,
+      "end": 1699985918716,
+      "sourcemaps": null
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1699985918716,
+      "end": 1699985918716,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1699985918716,
+      "end": 1699985918716,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1699985918716,
+      "end": 1699985918716,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "start": 1699985918716,
+      "end": 1699985918716,
+      "order": "normal"
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1699985918716,
+      "end": 1699985918716,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1699985918716,
+      "end": 1699985918716,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1699985918716,
+      "end": 1699985918716,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": "\r\n  import UserDetails from './UserDetails.vue';\r\n  import AccountCreation from './AccountCreation.vue';\r\n  \r\n  const _sfc_main = {\r\n    components: {\r\n      UserDetails,\r\n      AccountCreation,\r\n    },\r\n    data() {\r\n      return {\r\n        activeTab: 'userDetails',\r\n      };\r\n    },\r\n  };\r\n  \nimport { normalizeClass as _normalizeClass, createElementVNode as _createElementVNode, resolveComponent as _resolveComponent, createVNode as _createVNode, openBlock as _openBlock, createElementBlock as _createElementBlock, createCommentVNode as _createCommentVNode, pushScopeId as _pushScopeId, popScopeId as _popScopeId } from \"vue\"\n\nconst _withScopeId = n => (_pushScopeId(\"data-v-3c2e7e17\"),n=n(),_popScopeId(),n)\nconst _hoisted_1 = { class: \"tabs\" }\nconst _hoisted_2 = { key: 0 }\nconst _hoisted_3 = { key: 1 }\n\nfunction _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {\n  const _component_UserDetails = _resolveComponent(\"UserDetails\")\n  const _component_AccountCreation = _resolveComponent(\"AccountCreation\")\n\n  return (_openBlock(), _createElementBlock(\"div\", null, [\n    _createElementVNode(\"div\", _hoisted_1, [\n      _createElementVNode(\"button\", {\n        onClick: _cache[0] || (_cache[0] = $event => ($data.activeTab = 'userDetails')),\n        class: _normalizeClass({ 'active': $data.activeTab === 'userDetails' })\n      }, \"User Details\", 2),\n      _createElementVNode(\"button\", {\n        onClick: _cache[1] || (_cache[1] = $event => ($data.activeTab = 'accountCreation')),\n        class: _normalizeClass({ 'active': $data.activeTab === 'accountCreation' })\n      }, \"Account Creation\", 2)\n    ]),\n    ($data.activeTab === 'userDetails')\n      ? (_openBlock(), _createElementBlock(\"div\", _hoisted_2, [\n          _createVNode(_component_UserDetails)\n        ]))\n      : ($data.activeTab === 'accountCreation')\n        ? (_openBlock(), _createElementBlock(\"div\", _hoisted_3, [\n            _createVNode(_component_AccountCreation)\n          ]))\n        : _createCommentVNode(\"\", true)\n  ]))\n}\n\nimport \"D:/user-management-dashboard/pages/DashboardCreate.vue?vue&type=style&index=0&scoped=3c2e7e17&lang.css\"\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render],['__scopeId',\"data-v-3c2e7e17\"]])",
+      "start": 1699985918716,
+      "end": 1699985918720,
+      "order": "normal",
+      "sourcemaps": {
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1699985918720,
+      "end": 1699985918720,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1699985918720,
+      "end": 1699985918720,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1699985918720,
+      "end": 1699985918720,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:chunk-error",
+      "start": 1699985918720,
+      "end": 1699985918720,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1699985918720,
+      "end": 1699985918720,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1699985918720,
+      "end": 1699985918720,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1699985918720,
+      "end": 1699985918720,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1699985918720,
+      "end": 1699985918720,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1699985918720,
+      "end": 1699985918720,
+      "order": "normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1699985918721,
+      "end": 1699985918721,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1699985918721,
+      "end": 1699985918721,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1699985918721,
+      "end": 1699985918721,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1699985918721,
+      "end": 1699985918721,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1699985918721,
+      "end": 1699985918721,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1699985918721,
+      "end": 1699985918721,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1699985918721,
+      "end": 1699985918721,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1699985918721,
+      "end": 1699985918722,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1699985918723,
+      "end": 1699985918723,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1699985918723,
+      "end": 1699985918723,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:runtime-paths-dep",
+      "start": 1699985918723,
+      "end": 1699985918723,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:route-injection-plugin",
+      "start": 1699985918723,
+      "end": 1699985918723,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1699985918723,
+      "end": 1699985918724,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1699985918724,
+      "end": 1699985918724,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1699985918724,
+      "end": 1699985918724,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1699985918724,
+      "end": 1699985918724,
+      "order": "normal"
+    }
+  ]
+}
