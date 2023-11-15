@@ -1,35 +1,44 @@
 <template>
-  <div>
-    <h1>User Details</h1>
-    <!-- Search bar -->
-    <input v-model="searchTerm" placeholder="Search user..." />
+  <div class="container mx-auto my-8 p-8 bg-white rounded shadow-md">
+    <h1 class="text-3xl font-semibold mb-6">User Details</h1>
     
+    <!-- Search bar -->
+    <input v-model="searchTerm" placeholder="Search user..." class="p-2 border border-gray-300 rounded w-full mb-4 focus:outline-none focus:border-blue-500 transition duration-300" />
+
     <!-- User table -->
-    <table>
-      <thead>
-        <tr>
-          <th>Username</th>
-          <th>Email</th>
-          <th>Phone</th>
-          <th>ID</th>
-          <th>Creation Date</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr v-for="user in filteredUsers" :key="user.id" @click="openModal(user)">
-          <td>{{ user.username}}</td>
-          <td>{{ user.email }}</td>
-          <td>{{ user.phone }}</td>
-          <td>{{ user.id }}</td>
-          <td>{{ user.creationDate }}</td>
-        </tr>
-      </tbody>
-    </table>
+    <div class="overflow-x-auto">
+      <table class="min-w-full border border-collapse border-gray-300">
+        <thead>
+          <tr class="bg-gray-200">
+            <th class="py-2 px-4">ID</th>
+            <th class="py-2 px-4">Username</th>
+            <th class="py-2 px-4">Email</th>
+            <th class="py-2 px-4">Phone</th>
+            <th class="py-2 px-4">Creation Date</th>
+            <!-- Add more columns as needed -->
+          </tr>
+        </thead>
+        <tbody>
+          <tr v-for="user in filteredUsers" :key="user.id" @click="openModal(user)" class="hover:bg-gray-100 cursor-pointer">
+            <td class="py-2 px-4">{{ user.id }}</td>
+            <td class="py-2 px-4">{{ user.username }}</td>
+            <td class="py-2 px-4">{{ user.email }}</td>
+            <td class="py-2 px-4">{{ user.phone }}</td>
+            <td class="py-2 px-4">{{ user.creationDate }}</td>
+            <!-- Add more columns as needed -->
+          </tr>
+        </tbody>
+      </table>
+    </div>
 
     <!-- Modal for user report -->
-    <div v-if="selectedUser" class="modal">
-      <button @click="closeModal">Close</button>
-      <button @click="generateReport(selectedUser)">Generate Report</button>
+    <div v-if="selectedUser" class="modal p-4 bg-white border rounded mt-4">
+      <!-- <h2>User Report for {{ user.username }}</h2> -->
+      <h2 class="text-xl font-semibold mt-4 mb-2">User Information</h2>
+      <p><strong>Username:</strong> {{ selectedUser.username }}</p>
+      <p><strong>Email:</strong> {{ selectedUser.email }}</p>
+      <button @click="closeModal" class="bg-gray-200 p-2 rounded">Close</button>
+      <button @click="generateReport(selectedUser)" class="bg-blue-500 text-white p-2 rounded ml-2">Generate Report</button>
     </div>
   </div>
 </template>

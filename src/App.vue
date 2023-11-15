@@ -9,7 +9,7 @@
     </main>
 
     <footer>
-      <p>&copy; 2023 Your Company</p>
+      <p>&copy; Made By Keshav Kumar</p>
     </footer>
   </div>
 </template>
@@ -29,7 +29,7 @@ export default {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  margin-top: 0px;
 }
 
 header {
