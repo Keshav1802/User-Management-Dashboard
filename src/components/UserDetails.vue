@@ -83,9 +83,9 @@ export default {
       { id: 3, username: 'user3', email: 'user3@email.com', phone: '123456789', creationDate: '2023-01-01' },
       // Add more users...
     ];
-    this.$root.$on('newUserCreated', newUser => {
-      this.users.push(newUser);
-    });
+    // this.$root.$on('newUserCreated', newUser => {
+    //   this.users.push(newUser);
+    // });
   },
 };
 </script>
