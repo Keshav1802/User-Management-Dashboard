@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-gradient-to-r from-purple-500 to-indigo-500 min-h-screen flex items-center justify-center">
+  <div>
     <div class="bg-white p-8 rounded shadow-md w-full max-w-md">
       <h1 class="text-3xl font-semibold mb-6 text-center text-gray-800">Create Your Account</h1>
 
